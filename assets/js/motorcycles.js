@@ -40,10 +40,10 @@ const xhr = new XMLHttpRequest();
             per.forEach(p => {
                  let list = document.getElementById('item-list');
 
-            list.innerHTML = list.innerHTML + `${p.id},<img src="${p.img}" height="200"></img> <li>${p.bikeName}, ${p.bikeType}, ${p.bikeSummary} </li>`;
+            list.innerHTML = list.innerHTML + `<br>${p.id}<br><img src="${p.img}" height="200"></img> <li>${p.bikeName}<br> ${p.bikeType}<br> ${p.bikeSummary} </li>`;
             })
         }
-        else if (xhr.status === 404){
+            else if (xhr.status === 404){
             console.log("File Not Found");
         }
     }
