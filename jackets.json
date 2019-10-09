@@ -2,40 +2,40 @@
     { 
       
       "id": 11,
-      "img":"https://cdn2.cycletrader.com/v1/media/5d81c8502f0d690661297785.jpg?width=1024&height=768&quality=70",
-      "bikeName": "Kawasaki Ninja 300",
-      "bikeType": "Sports bike",
-      "bikeSummary":"This motorcycle is great for twists and turns"
+      "img":"https://cdn.webshopapp.com/shops/101410/files/248117174/image.jpg",
+      "jacketName": "Rev'it",
+      "jacketType": "Sports Jacket",
+      "jacketSummary":"This Nylon jacket is for sports bike riders"
       
     },    
     {
       "id": 12,
-      "img":"https://shop.r10s.jp/mokeiyabigman/cabinet/00082251/imgrc0070522106.jpg",
-      "bikeName": "Kawasaki H2R",
-      "bikeType": "Sports bike",
-      "bikeSummary":"This motorcycle is great for breaking the land speed record"
+      "img":"https://smhttp-ssl-26404.nexcesscdn.net/media/catalog/product/cache/1/image/960x/040ec09b1e35df139433887a97daa66f/1/7/170_9b.jpg",
+      "jacketName": "Falstaff",
+      "jacketType": "Sports Jacket",
+      "jacketSummary":"This Waterproof waxed cotton jacket is best suited for long rides"
       },    
       {
         "id": 13,
-        "img":"https://cdn.customkings.harley-davidson.com/UploadedFiles/Media/Bikes/48/2019_8530_de_DE_Harley-Davidson%20D%C3%BCsseldorf_5D7C465C_overlay.png",
-        "bikeName": "Harley Davidson Bobber 600",
-        "bikeType": "Cruiser",
-        "bikeSummary":"This motorcycle is great for cruising around"
+        "img":"https://www.bootbarn.com/dw/image/v2/BCCF_PRD/on/demandware.static/-/Sites-master-product-catalog-shp/default/dwffd155a9/images/442/2000237442_001_P1.JPG?sw=980&sh=980&sm=fit",
+        "jacketName": "Leather King",
+        "jacketType": "Cruiser Jacket",
+        "jacketSummary":"This Jackets is suited for old school cruiser bikes"
       }
       ,    
       {
         "id": 14,
-      "img":"https://i.pinimg.com/originals/cd/28/be/cd28be17534021d3d70919e48b9a27c5.jpg",
-      "bikeName": "Triumph Bobber 800",
-      "bikeType": "Cruiser",
-      "bikeSummary":"This motorcycle is great at being better than Harley Davidson"
+      "img":"https://trademe.tmcdn.co.nz/photoserver/plusw/525662280.jpg",
+      "jacketName": "Thor",
+      "jacketType": "Dirt Bike Jersey",
+      "jacketSummary":"This lightweight, nylon, dirt bike jersey is for moto-cross"
       }
       ,    
       {
         "id": 15,
-        "img":"https://images-na.ssl-images-amazon.com/images/I/71zkZWzuNHL._SX425_.jpg",
-        "bikeName": "Honda CR250R",
-        "bikeType": "Dirt Bike",
-        "bikeSummary":"This motorcycle is great for hacking around on a farm and doing jumps"
+        "img":"https://www.revzilla.com/product_images/0397/4529/thor_jackt_s9_terain_gncamo_300x300.jpg",
+        "jacketName": "Thor",
+        "jacketType": "Sports Jacket",
+        "jacketSummary":"This nylon jacket is suited for sports bikes"
       }
 ]

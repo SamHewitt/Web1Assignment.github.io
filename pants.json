@@ -1,0 +1,41 @@
+[
+    { 
+      
+      "id": 16,
+      "img":"https://cdn11.bigcommerce.com/s-9cb60/images/stencil/2048x2048/products/331/2024/angle__69805.1492500640.jpg?c=2",
+      "pantsName": "Rhino",
+      "pantsType": "Nylon",
+      "pantsSummary":"These pants are suited for sports bikes"
+      
+    },    
+    {
+      "id": 17,
+      "img":"https://wickedstock.com/wp-content/uploads/2017/02/1-13.jpg",
+      "pantsName": "Short",
+      "pantsType": "Nylon",
+      "pantsSummary":"These pants are suited for sports bikes"
+      },    
+      {
+        "id": 18,
+        "img":"https://www.revzilla.com/product_images/0021/8189/1553672_001_F_S_300x300.jpg",
+        "pantsName": "Alpine Stars",
+        "pantsType": "Leather",
+        "pantsSummary":"These pants are suited for cruiser bikes"
+      }
+      ,    
+      {
+        "id": 19,
+      "img":"https://www.revzilla.com/product_images/0302/1217/fly_racing_f16_pants_300x300.jpg",
+      "pantsName": "Fly",
+      "pantsType": "Moto-Cross",
+      "pantsSummary":"These lightweight nylon pants are for dirt bike riding and motocross"
+      }
+      ,    
+      {
+        "id": 20,
+        "img":"https://shop.1stmx.co.uk/media/product/14c/2019-alpinestars-techstar-factory-white-navy-motocross-pants-c9f.jpg",
+        "pantsName": "Apline Stars",
+        "pantsType": "Moto-Cross",
+        "pantsSummary":"These lightweight nylon pants are for moto-cross"
+      }
+]
