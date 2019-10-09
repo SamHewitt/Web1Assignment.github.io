@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png"/>
+    <title>Motorcycles</title>
+</head>
+<body>
+        <nav>
+                <ul>
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a href="#">Items</a>
+                        <ul class="dropdown-1"> 
+                            <li><a class="nav-active" href="motorcycles.html">Motorcycles</a></li>
+                            <li><a href="helmets.html">Helmets</a></li>
+                            <li><a href="jackets.html">Jackets</a></li>
+                            <li><a href="pants.html">Pants</a></li>
+        
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    <p>Motorcycles</p>
+    <section>
+        <ul id = "item-list"></ul>
+  
+            <form id = "f1">
+                    <fieldset>
+                              <legend>Review this Motorcycle</legend>
+                      <label>Name</label>
+                      <br>
+                      <input type = "text" name = "Name" id = "Name" placeholder = "Your Name">
+                      <br>                      
+                      <br>
+                      <label>Review</label>
+                      <br>
+                      <input type ="text" name = "Review" id= "Review" cols="35" rows="8" placeholder="Review:"></input>          
+                      <br>
+                      <p><input type="button" id="ajax-php-button" value="Submit" /></p>
+                      <br>
+                      <br>
+                  </fieldset>
+                  </form>
+            <p id="ajax-php-text"></p>
+          </section>
+
+    <footer id="p1">Copyright © Sam Hewitt 2019 </footer>
+    <script src="./assets/js/motorcycles.js"></script>
+</body>
+</html>
