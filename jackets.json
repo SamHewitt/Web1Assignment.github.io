@@ -1,0 +1,41 @@
+[
+    { 
+      
+      "id": 11,
+      "img":"https://cdn2.cycletrader.com/v1/media/5d81c8502f0d690661297785.jpg?width=1024&height=768&quality=70",
+      "bikeName": "Kawasaki Ninja 300",
+      "bikeType": "Sports bike",
+      "bikeSummary":"This motorcycle is great for twists and turns"
+      
+    },    
+    {
+      "id": 12,
+      "img":"https://shop.r10s.jp/mokeiyabigman/cabinet/00082251/imgrc0070522106.jpg",
+      "bikeName": "Kawasaki H2R",
+      "bikeType": "Sports bike",
+      "bikeSummary":"This motorcycle is great for breaking the land speed record"
+      },    
+      {
+        "id": 13,
+        "img":"https://cdn.customkings.harley-davidson.com/UploadedFiles/Media/Bikes/48/2019_8530_de_DE_Harley-Davidson%20D%C3%BCsseldorf_5D7C465C_overlay.png",
+        "bikeName": "Harley Davidson Bobber 600",
+        "bikeType": "Cruiser",
+        "bikeSummary":"This motorcycle is great for cruising around"
+      }
+      ,    
+      {
+        "id": 14,
+      "img":"https://i.pinimg.com/originals/cd/28/be/cd28be17534021d3d70919e48b9a27c5.jpg",
+      "bikeName": "Triumph Bobber 800",
+      "bikeType": "Cruiser",
+      "bikeSummary":"This motorcycle is great at being better than Harley Davidson"
+      }
+      ,    
+      {
+        "id": 15,
+        "img":"https://images-na.ssl-images-amazon.com/images/I/71zkZWzuNHL._SX425_.jpg",
+        "bikeName": "Honda CR250R",
+        "bikeType": "Dirt Bike",
+        "bikeSummary":"This motorcycle is great for hacking around on a farm and doing jumps"
+      }
+]

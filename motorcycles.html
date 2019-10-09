@@ -26,28 +26,26 @@
                 </ul>
             </nav>
     <p>Motorcycles</p>
-    <section>
-        <ul id = "item-list"></ul>
   
-            <form id = "f1">
-                    <fieldset>
-                              <legend>Review A Motorcycle</legend>
-                      <label>Name</label>
-                      <br>
-                      <input type = "text" name = "Name" id = "Name" placeholder = "Your Name">
-                      <br>                      
-                      <br>
-                      <label>Review</label>
-                      <br>
-                      <input type ="text" name = "Review" id= "Review" cols="35" rows="8" placeholder="Review:"></input>          
-                      <br>
-                      <p><input type="button" id="ajax-php-button" value="Submit" /></p>
-                      <br>
-                      <br>
-                  </fieldset>
-                  </form>
-            <p id="ajax-php-text"></p>
-          </section>
+        <ul id = "item-list"></ul>
+        <form id = "f1">
+            <fieldset>
+                      <legend>Review A Motorcycle</legend>
+              <label>Name</label>
+              <br>
+              <input class = "text" name = "Name" required = "true" id = "contact-name" class = "input" placeholder = "Your Name">
+              <br>                      
+              <br>
+              <label>Review</label>
+              <br>
+              <textarea class ="text" required="true" id="contact-message" cols="35" rows="8" class="input-form" placeholder="Enter your message:"></textarea>          
+              <br>
+              <input class="submit-btn" type="submit" value="Submit">
+              <br>
+              <br>
+          </fieldset>
+     </form>
+          
 
     <footer id="p1">Copyright © Sam Hewitt 2019 </footer>
     <script src="./assets/js/motorcycles.js"></script>

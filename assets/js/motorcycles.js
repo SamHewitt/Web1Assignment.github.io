@@ -1,30 +1,4 @@
 
-
-
-
-// const loadJson = () => {
-//     // json event
-//     xhr.open("GET", "Motorcycles.json", true);
-//     xhr.onload = () => {
-//       if (xhr.status === 200) {
-//         const Motorcycles = JSON.parse(xhr.responseText);
-//         console.log(Motorcycles);
-  
-//         Motorcycles.forEach(m => {
-//           let list = document.getElementById('json');
-//           list.innerHTML = list.innerHTML + `<li> ${m.id},${m.img},${m.bikeName},${m.bikeType},${m.bikeSummary}`;
-//         })
-      
-//       } else if (xhr.status === 404) {
-//         console.log("File Not Found.");
-//       }
-//     };
-//     xhr.oneerror = () => {
-//       console.log(`Current Load State${xhr.readyState}`);
-//     };
-  
-//     xhr.send();
-//   };
 const items = document.getElementById('items');
 const list = document.getElementById('item-list');
 
@@ -40,7 +14,7 @@ const xhr = new XMLHttpRequest();
             per.forEach(p => {
                  let list = document.getElementById('item-list');
 
-            list.innerHTML = list.innerHTML + `<br>${p.id}<br><img src="${p.img}" height="200"></img> <li>${p.bikeName}<br> ${p.bikeType}<br> ${p.bikeSummary} </li>`;
+            list.innerHTML = list.innerHTML + `<br>${p.id}<br><img src="${p.img}" height="200" width="300"></img> <li>${p.bikeName}<br> ${p.bikeType}<br> ${p.bikeSummary} </li>`;
             })
         }
             else if (xhr.status === 404){
@@ -78,11 +52,6 @@ const xhr = new XMLHttpRequest();
     xhr.send(params);
   };
 
-  // $.get('Motorcycles.json'), res => {
-  //     $.each(res,(_,val) => {
-  //         console.log(val.id)
-  //     })
-  // }
 document.getElementById("f1").addEventListener("submit", sendPhp);
 document.getElementById("ajax-php-button").addEventListener("click", sendPhp);
 

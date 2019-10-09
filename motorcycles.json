@@ -1,7 +1,7 @@
 [
     { 
       
-      "id": "1",
+      "id": 1,
       "img":"https://cdn2.cycletrader.com/v1/media/5d81c8502f0d690661297785.jpg?width=1024&height=768&quality=70",
       "bikeName": "Kawasaki Ninja 300",
       "bikeType": "Sports bike",
