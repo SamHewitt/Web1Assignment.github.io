@@ -237,8 +237,29 @@ nav ul li ul a:hover, .nav-active {
 }
 
 
-.container {
-
-    float: left;
-
+.contact-container{
+    justify-content: center;
+    padding-left: 400px;
 }
+
+#comment-data{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(7, 82, 117);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(238, 233, 233);
+    transform: translateY(4px);
+    justify-content: center;
+}
+#comment-data:hover {background-color: #4cadfd }

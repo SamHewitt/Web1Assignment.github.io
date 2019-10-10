@@ -28,31 +28,37 @@
     <p id = "p3">Jackets</p>
   
   <div class = "container">
-    <form id = "f1">
-            <fieldset>
-                      <legend>Review A Jacket</legend>
-              <label>Name</label>
-              <br>
-              <input class = "text" name = "Name" required = "true" id = "contact-name" class = "input" placeholder = "Your Name">
-              <br>                               
-              <Label>Jacket Name</Label>                   
-              <br>
-              <input class = "text" name = "Jacket Name" required = "true" id = "contact-name" class = "input" placeholder = "Jacket Name">
-              <br>
-              <label>Review</label>
-              <br>
-              <textarea class ="text" required="true" id="contact-message" cols="35" rows="8" class="input-form" placeholder="Enter your message:"></textarea>          
-              <br>
-              <input class="submit-btn" type="submit" value="Submit">
-              <br>
-              <br>
-          </fieldset>
-          </form>
-        </div>
+    <legend> <form id = "f1">
+        <fieldset>
+                  <legend> Review A Jacket</legend>
+                  <label>Name<br>
+                  <input type = "text" id="name" cols="15" rows="3" placeholder="Your name"></input>
+                  </label><br>
+                  <label>Item name<br>
+                  <input type = "text" id="jacketname" cols="15" rows="3" placeholder="Jacket name"></input>
+                  </label><br>
+                  <label>Review<br>
+                  <textarea name="comment" id="comment-input" cols="25" rows="10" placeholder="Your review"></textarea>
+                  </label><br>
+                  <input id="comment-data" type="button" value="Post" />
+                  <br>
+                  <br>
+      </fieldset>
+      </form></legend>
+     
+        <div id = p1>
+            <h3 id="name"></h3>
+            <p id="jacketname"></p>
+            <p id="comment-output"></p>
+            <p id="datetime"></p>
+          </div>
         <div class="container">
             <!--json file displayed here-->
     <legend id = "l1"><ul id = "item-list"></ul></legend>
 </div>
+
+</body>
+
           <footer id="p1">Copyright © Sam Hewitt 2019 </footer>
           <script src="./assets/js/jackets.js"></script>
 </body>

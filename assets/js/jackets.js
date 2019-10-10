@@ -3,13 +3,12 @@ const list = document.getElementById('item-list');
 
 const xhr = new XMLHttpRequest();
 
-
+    // displays json file to html page
     xhr.open('GET', 'jackets.json', true);
     xhr.onload = () => {
         if (xhr.status === 200){
             const per = JSON.parse(xhr.responseText);
             //console.log(per);
-
             per.forEach(p => {
                  let list = document.getElementById('item-list');
 
@@ -20,35 +19,29 @@ const xhr = new XMLHttpRequest();
             console.log("File Not Found");
         }
     }
-
     xhr.onerror = () =>{
         console.log(`Current Load State ${xhr.readyState}`);
     };
 
     xhr.send();
-  // php to page
-  const sendPhp = e => {
-    e.preventDefault();
-  
-    const Name = document.getElementById("Name").value;
-    const Review = document.getElementById("Review").value;
-    const params = `Name=${Name}&Review=${Review}`;
-    xhr.open("POST", "http://kate.ict.op.ac.nz/~orrgl1/server.php", true);
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.onload = () => {
-      if (xhr.status === 200) {
-        console.log(xhr.responseText);
-        let text = document.getElementById("ajax-php-text");
-        text.innerHTML = `<p>${xhr.responseText}</p>`;
-        text.style.color = "red"
-        text.style.fontSize = "25px"
-        text.style.border = "thick solid #fff"
-        text.style.background = "#455"
-      } else if (xhr.status === 500) {
-        console.log("Internal Server Error.");
-      }
-    };
-    xhr.send(params);
-  };
 
-document.getElementById("f1").addEventListener("submit", sendPhp);
+    // display comment to html page
+
+    const showComment = () => {
+      const nameVal = document.getElementById('name').value
+      document.getElementById(
+        'name'
+      ).innerHTML = `<b>Name:</b> ${nameVal}`
+      const commentVal = document.getElementById('comment-input').value
+      document.getElementById(
+        'comment-output'
+      ).innerHTML = `<b>Review:</b> ${commentVal}`
+      document.getElementById(
+        'datetime'
+      ).innerHTML = `<b>Time:</b> ${document.lastModified}`
+      document.getElementById(
+       'postbuttonid'
+      ).innerHTML = `<b>Post Button ID:</b>${document.getElementById('name')}<br>${document.getElementById('jacketname')}<br> ${document.getElementById('comment-data').id}`
+    }
+    document.getElementById('comment-data').addEventListener('click', showComment)
+    document.getElementById('comment-data').addEventListener('click', showComment)
