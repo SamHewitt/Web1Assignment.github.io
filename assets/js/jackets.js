@@ -52,4 +52,3 @@ const xhr = new XMLHttpRequest();
   };
 
 document.getElementById("f1").addEventListener("submit", sendPhp);
-document.getElementById("ajax-php-button").addEventListener("click", sendPhp);

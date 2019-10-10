@@ -26,16 +26,18 @@
     </nav>
   
     <p id = "p3">Jackets</p>
-
-    <legend><ul id = "item-list"></ul></legend>
-
+  
+  <div class = "container">
     <form id = "f1">
             <fieldset>
                       <legend>Review A Jacket</legend>
               <label>Name</label>
               <br>
               <input class = "text" name = "Name" required = "true" id = "contact-name" class = "input" placeholder = "Your Name">
-              <br>                      
+              <br>                               
+              <Label>Jacket Name</Label>                   
+              <br>
+              <input class = "text" name = "Jacket Name" required = "true" id = "contact-name" class = "input" placeholder = "Jacket Name">
               <br>
               <label>Review</label>
               <br>
@@ -46,6 +48,11 @@
               <br>
           </fieldset>
           </form>
+        </div>
+        <div class="container">
+            <!--json file displayed here-->
+    <legend id = "l1"><ul id = "item-list"></ul></legend>
+</div>
           <footer id="p1">Copyright © Sam Hewitt 2019 </footer>
           <script src="./assets/js/jackets.js"></script>
 </body>

@@ -55,17 +55,17 @@ footer{
 }
 
 #p1{
-    background-color: #C3E991;
+    background-color:#44BBA4;
     color:#555555;
     text-align: center;
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: #72c209;
+    text-shadow: #1ad5ee;
 
 }
 #p2{
     background-color: #15181a;
-    color:#72c209;
+    color:#6fdaec;
     text-align: center;
     padding: 20px;
 
@@ -204,7 +204,7 @@ nav ul li ul a:hover, .nav-active {
 
   }
   legend{
-      justify-content: center;
+      justify-content: right;
       margin: auto;
       width: 50%;
       border: 3px solid rgb(0, 0, 0);
@@ -212,11 +212,16 @@ nav ul li ul a:hover, .nav-active {
       padding: 10px;
       border-radius: 15px;
   }
+  #item-list{
+    justify-content: center;
+ 
+  }
 
   #f1{
       flex-wrap: inherit;
       justify-content: center;
-      padding-left: 480px;
+    
+     
   }
   #pic{
     width: 200px;
@@ -224,8 +229,16 @@ nav ul li ul a:hover, .nav-active {
     padding-left: 0%;
     justify-content: left;
 }
-#logo{
-    justify-content: left;
+
+#item-list{
+    justify-content: right;
+    padding-right: 200px;
+
 }
 
 
+.container {
+
+    float: left;
+
+}
