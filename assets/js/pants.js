@@ -13,7 +13,7 @@ const xhr = new XMLHttpRequest();
             per.forEach(p => {
                  let list = document.getElementById('item-list');
 
-            list.innerHTML = list.innerHTML + `<br>${p.id}<br><img src="${p.img}" height="200" width="200"></img> <li>${p.pantsName}<br> ${p.pantsType}<br> ${p.pantsSummary} </li>`;
+            list.innerHTML = list.innerHTML + `<br>${p.id}<br><img src="${p.img}" height="200" width="200"></img> <br>${p.pantsName}<br> ${p.pantsType}<br> ${p.pantsSummary} </br>`;
             })
         }
             else if (xhr.status === 404){

@@ -192,20 +192,17 @@ nav ul li ul a:hover, .nav-active {
     background-color: #3e8e41;
     box-shadow: 0 5px rgb(238, 233, 233);
     transform: translateY(4px);
+    justify-content: center;
   }
   legend{
       justify-content: center;
       margin: auto;
       width: 50%;
       border: 3px solid rgb(0, 0, 0);
-      background-color: #eeff00;
+      background-color: #b3b3b3;
       
       padding: 10px;
       border-radius: 15px;
-  }
-  .contact-name{
-    justify-content: left;
-    
   }
 
   #f1{
@@ -222,4 +219,11 @@ nav ul li ul a:hover, .nav-active {
 }
 #logo{
     justify-content: left;
+}
+#item-list{
+    border-block-color: fff;
+}
+
+#submit-btn{
+    justify-content: center;
 }
