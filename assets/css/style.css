@@ -61,18 +61,24 @@ footer{
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: #72c209;
+
 }
 #p2{
     background-color: #15181a;
     color:#72c209;
     text-align: center;
     padding: 20px;
+
 }
 #p3{
     background-color: #00a72a;
     color:#08e2ff;
     text-align: center;
     padding: 20px;
+    width: 200px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 table,tr,td,th{
     border: 2px solid #15181a;
@@ -184,23 +190,25 @@ nav ul li ul a:hover, .nav-active {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
    }
 
-   .submit-btn:hover {background-color: #4cadfd}
+   .submit-btn:hover {background-color: #4cadfd }
 
    .submit-btn:active {
     background-color: #3e8e41;
     box-shadow: 0 5px rgb(238, 233, 233);
     transform: translateY(4px);
     justify-content: center;
+
   }
   legend{
       justify-content: center;
       margin: auto;
       width: 50%;
       border: 3px solid rgb(0, 0, 0);
-      background-color: #b3b3b3;
-      
+      background-color: #b3b3b3; 
       padding: 10px;
       border-radius: 15px;
   }
@@ -214,16 +222,10 @@ nav ul li ul a:hover, .nav-active {
     width: 200px;
     height: 150px;
     padding-left: 0%;
-    
     justify-content: left;
 }
 #logo{
     justify-content: left;
 }
-#item-list{
-    border-block-color: fff;
-}
 
-#submit-btn{
-    justify-content: center;
-}
+
