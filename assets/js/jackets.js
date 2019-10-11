@@ -30,7 +30,6 @@ const xhr = new XMLHttpRequest();
     const showComment = () => {
   
       const nameVal = document.getElementById('name-input').value
-      const nameOutput = document.getElementById('name-output').value
       const itemVal = document.getElementById('item-input').value
       const commentVal = document.getElementById('comment-input').value
       const datetime = document.lastModified

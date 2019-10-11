@@ -25,39 +25,31 @@
                     <li><a class="nav-active" href="contact.html">Contact</a> </li>
                 </ul>
             </nav>
-
-           
-            <form id = "f1">
-              <fieldset>
-                        <legend>Contact Us</legend>
-                <label>Name</label>
-                <br>
-                <input class = "text" name = "Name" required = "true" id = "contact-name" class = "input" placeholder = "Your Name">
-                <br> 
-                <br>
-                <label>Email address</label>
-                <br>
-                <input class = "text" name="Email" required="true" id="contact-email" class="input-item-form" placeholder="Your Email Address">
-                <br>
-                <br>
-                <label>Phone number</label>
-                <br>
-                <input class= "text" name="Phone" required="true" id="contact-phone" class="input-item-form" placeholder="Your Phone Number">
-                <br>
-                <br>
-                <label>Message</label>
-                <br>
-                <textarea class ="text" required="true" id="contact-message" cols="35" rows="8" class="input-form" placeholder="Enter your message:"></textarea>          
-                <br>
-                <input class="submit-btn" type="submit" value="Submit">
-                <br>
-                <br>
-                
-            </fieldset>
-            </form>
-            
-
-<footer id="p2">Copyright © Sam Hewitt 2019 </footer>
+                  
+                  
+                     <form>
+                        <fieldset id = p1>
+                                  <legend id = "p1"> Contact Us</legend>
+                                  <label>Name<br>
+                                  <input class = "text" id="contact-input" required = "true" cols="15" rows="3" placeholder="Your name"></input>
+                                  </label><br>
+                                  <label>Email address<br>
+                                  <input class = "text" id="email-input" required = "true" cols="15" rows="3" placeholder="Email address"></input>
+                                  </label><br>
+                                  <label>Phone number<br>
+                                  <input class = "text" id="phone-input" required = "true" cols="15" rows="3" placeholder="Phone number"></input>
+                                  </label><br>
+                                  <label>Message<br>
+                                  <textarea class ="comment" required = "true" id="message-input" required cols="30" rows="8" placeholder="Your Message"></textarea>
+                                  </label><br>
+                                  <input id="comment-data" type="button" value="Post"/>
+                                  <br>
+                                  <br>
+                        </fieldset>
+                      </form>
+                        
   
+<footer id="p2">Copyright © Sam Hewitt 2019 </footer>
+<script src="./assets/js/contact.js"></script>
 </body>
 </html>
