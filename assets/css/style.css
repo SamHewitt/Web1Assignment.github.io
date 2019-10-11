@@ -44,17 +44,20 @@ footer{
     background-color:#44BBA4;
     color:#555555;
     text-align: center;
-    padding: 20px;
+    margin: auto;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: #1ad5ee;
+    justify-content: center;
 
 }
 #p2{
-    background-color: #e20707;
+    background-color: #14b805;
     color:#ffffff;
-    border-spacing: 2px;
-    border: #1ad5ee;
-    text-align: center;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    text-align: left;
     padding: 20px;
     border-radius: 15px;
 
@@ -64,7 +67,8 @@ footer{
     color:#08e2ff;
     text-align: center;
     padding: 20px;
-    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -199,7 +203,9 @@ nav ul li ul a:hover, .nav-active {
       
   }
   #item-list{
-    justify-content: center;
+    justify-content: left;
+    padding-right: 100px;
+
  
   }
 

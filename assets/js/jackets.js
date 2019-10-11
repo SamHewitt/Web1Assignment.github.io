@@ -52,7 +52,6 @@ const xhr = new XMLHttpRequest();
         <p>Review:${commentVal}</p><br>
         <p>Date:${datetime}</p><br>
         </div>` + form.innerHTML;
-        alert("Thankyou for your review")
       }
 
      }
