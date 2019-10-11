@@ -28,26 +28,33 @@ const xhr = new XMLHttpRequest();
     // display comment to html page
 
     const showComment = () => {
+  
       const nameVal = document.getElementById('name-input').value
-      document.getElementById(
-        'name-output'
-      ).innerHTML = `<b>Name:</b> ${nameVal}`
-
+      const nameOutput = document.getElementById('name-output').value
       const itemVal = document.getElementById('item-input').value
-      document.getElementById(
-        'item-output'
-      ).innerHTML = `<b>Item:</b> ${itemVal}`
-
       const commentVal = document.getElementById('comment-input').value
-      document.getElementById(
-        'comment-output'
-      ).innerHTML = `<b>Review:</b> ${commentVal}`
+      const datetime = document.lastModified
+      const form = document.getElementById('f1')
+      if (nameVal.length <= 0){
+        alert("please enter a name")
+      } 
+      if (itemVal.length <= 0){
+        alert("please enter an Item")
+      }   
+      if (commentVal.length <= 0){
+        alert("please enter a comment")
+      }
+      if (((nameVal.length >= 1)&&(itemVal.length >= 1) && (commentVal.length >= 1)))
+      {
+      form.innerHTML =
+        `<div id = "p2">  
+        <p>Name:${nameVal}</p><br>
+        <p>Item:${itemVal}</p><br>
+        <p>Review:${commentVal}</p><br>
+        <p>Date:${datetime}</p><br>
+        </div>` + form.innerHTML;
+        alert("Thankyou for your review")
+      }
 
-      document.getElementById(
-        'datetime'
-      ).innerHTML = `<b>Time:</b> ${document.lastModified}`
-      document.getElementById(
-       'postbuttonid'
-      ).innerHTML = `${document.getElementById('comment-data').id}`
-    }
-    document.getElementById('comment-data').addEventListener('click', showComment)
+     }
+     document.getElementById('comment-data').addEventListener('click', showComment)

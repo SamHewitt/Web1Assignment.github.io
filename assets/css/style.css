@@ -50,10 +50,11 @@ footer{
 
 }
 #p2{
-    background-color: #15181a;
-    color:#6fdaec;
+    background-color: #e20707;
+    color:#ffffff;
     text-align: center;
     padding: 20px;
+    border-radius: 15px;
 
 }
 #p3{
@@ -200,10 +201,6 @@ nav ul li ul a:hover, .nav-active {
  
   }
 
-  #f1{
-     
-      justify-content: center;
-  }
   #l1{
     flex-wrap: inherit;
     justify-content: right;
@@ -223,18 +220,7 @@ nav ul li ul a:hover, .nav-active {
    
    
 }
-aside{
-    flex: 30%;
-    padding: 20px;
-    justify-content: left;
-}
-section{
-    flex: 70%;
-    padding: 20px;
-    justify-content: right;
-    
 
-}
 .row{
     display:flex;
     flex-wrap: wrap;
