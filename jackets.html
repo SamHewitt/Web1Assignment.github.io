@@ -27,11 +27,27 @@
   
     <p id = "p3">Jackets</p>
   
+       
     <!--review form-->
     <div class="row">
     <section>
+        
      <form>
         <fieldset>
+                <div class="stars">
+                        <form action="">
+                          <input class="star star-5" id="star-5" type="radio" name="star"/>
+                          <label class="star star-5" for="star-5"></label>
+                          <input class="star star-4" id="star-4" type="radio" name="star"/>
+                          <label class="star star-4" for="star-4"></label>
+                          <input class="star star-3" id="star-3" type="radio" name="star"/>
+                          <label class="star star-3" for="star-3"></label>
+                          <input class="star star-2" id="star-2" type="radio" name="star"/>
+                          <label class="star star-2" for="star-2"></label>
+                          <input class="star star-1" id="star-1" type="radio" name="star"/>
+                          <label class="star star-1" for="star-1"></label>
+                        </form>
+                    </div>
                   <legend id = p1> Review A Jacket</legend>
                   <label>Name<br>
                   <input class = "text" id="name-input" required = "true" cols="15" rows="3" placeholder="Your name" required></input>
@@ -41,13 +57,15 @@
                   </label><br>
                   <label>Review<br>
                   <textarea class ="comment" required="true" id="comment-input" required cols="35" rows="10" placeholder="Your review"></textarea>
-                  </label><br>
-                  <input id="comment-data" type="button" value="Post"/>
-                  <br>
-                  <br>
+                  </label><br>  
+                  <input id="comment-data" type="button" value="Post"/><br>
+     
+                  <br><br>           
         </fieldset>
       </form>
-    
+
+   
+
         <!--Comment displayed here-->
         <div id = f1>
            
@@ -55,13 +73,13 @@
             <p id="item-output"></p>
             <p id="comment-output"></p>
             <p id="datetime"></p>
-       
+            
           </div>
         </section>
     
             <!--json file displayed here-->
        <aside>
-           <legend><ul id = "item-list"></ul></legend>
+           <legend><ul id = "item-list"><br></ul></legend>
        </aside> 
    
    </div>
