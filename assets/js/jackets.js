@@ -28,20 +28,26 @@ const xhr = new XMLHttpRequest();
     // display comment to html page
 
     const showComment = () => {
-      const nameVal = document.getElementById('name').value
+      const nameVal = document.getElementById('name-input').value
       document.getElementById(
-        'name'
+        'name-output'
       ).innerHTML = `<b>Name:</b> ${nameVal}`
+
+      const itemVal = document.getElementById('item-input').value
+      document.getElementById(
+        'item-output'
+      ).innerHTML = `<b>Item:</b> ${itemVal}`
+
       const commentVal = document.getElementById('comment-input').value
       document.getElementById(
         'comment-output'
       ).innerHTML = `<b>Review:</b> ${commentVal}`
+
       document.getElementById(
         'datetime'
       ).innerHTML = `<b>Time:</b> ${document.lastModified}`
       document.getElementById(
        'postbuttonid'
-      ).innerHTML = `<b>Post Button ID:</b>${document.getElementById('name')}<br>${document.getElementById('jacketname')}<br> ${document.getElementById('comment-data').id}`
+      ).innerHTML = `${document.getElementById('comment-data').id}`
     }
-    document.getElementById('comment-data').addEventListener('click', showComment)
     document.getElementById('comment-data').addEventListener('click', showComment)

@@ -27,37 +27,43 @@
   
     <p id = "p3">Jackets</p>
   
-  <div class = "container">
-    <legend> <form id = "f1">
+    <!--review form-->
+    <div class="row">
+    <section>
+     <form id = "f1">
         <fieldset>
-                  <legend> Review A Jacket</legend>
+                  <legend id = p1> Review A Jacket</legend>
                   <label>Name<br>
-                  <input type = "text" id="name" cols="15" rows="3" placeholder="Your name"></input>
+                  <input type = "text" id="name-input" cols="15" rows="3" placeholder="Your name"></input>
                   </label><br>
                   <label>Item name<br>
-                  <input type = "text" id="jacketname" cols="15" rows="3" placeholder="Jacket name"></input>
+                  <input type = "text" id="item-input" cols="15" rows="3" placeholder="Jacket name"></input>
                   </label><br>
                   <label>Review<br>
-                  <textarea name="comment" id="comment-input" cols="25" rows="10" placeholder="Your review"></textarea>
+                  <textarea name="comment" id="comment-input" cols="35" rows="10" placeholder="Your review"></textarea>
                   </label><br>
-                  <input id="comment-data" type="button" value="Post" />
+                  <input id="comment-data" type="button" value="Post"/>
                   <br>
                   <br>
-      </fieldset>
-      </form></legend>
-     
-        <div id = p1>
-            <h3 id="name"></h3>
-            <p id="jacketname"></p>
+        </fieldset>
+      </form>
+    
+        <!--Comment displayed here-->
+        <div id = f1>
+            <p id="name-output"></p>
+            <p id="item-output"></p>
             <p id="comment-output"></p>
             <p id="datetime"></p>
           </div>
-        <div class="container">
+        
+    
             <!--json file displayed here-->
-    <legend id = "l1"><ul id = "item-list"></ul></legend>
-</div>
+       <aside>
+           <legend><ul id = "item-list"></ul></legend>
+       </aside> 
+    </section>
+   </div>
 
-</body>
 
           <footer id="p1">Copyright © Sam Hewitt 2019 </footer>
           <script src="./assets/js/jackets.js"></script>

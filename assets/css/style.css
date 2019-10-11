@@ -21,22 +21,8 @@ body{
 header{
     background-color: #CB904D;
     color:#d2d4d6;
-    /* text-align: center;
-    padding: 20px; */
 }
-/* nav{
-    display: flex;
-    background-color: #DFCC74;
-    justify-content: center;
-}
-nav a{
-    color: #75485E;
-    text-decoration: none;
-    text-align: center;
-    padding: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-} */
+
 .row{
     display:flex;
     flex-wrap: wrap;
@@ -162,10 +148,6 @@ nav ul li ul a:hover, .nav-active {
  justify-content: center;
  display: inline-block;
 }
-.contact{
-    justify-content: center;
-}
-
 .text{
     border-radius: 15px;
     padding: 15px 25px;
@@ -204,13 +186,14 @@ nav ul li ul a:hover, .nav-active {
 
   }
   legend{
-      justify-content: right;
+      justify-content: center;
       margin: auto;
       width: 50%;
       border: 3px solid rgb(0, 0, 0);
       background-color: #b3b3b3; 
       padding: 10px;
       border-radius: 15px;
+      
   }
   #item-list{
     justify-content: center;
@@ -218,10 +201,15 @@ nav ul li ul a:hover, .nav-active {
   }
 
   #f1{
-      flex-wrap: inherit;
-      justify-content: center;
-    
      
+      justify-content: center;
+  }
+  #l1{
+    flex-wrap: inherit;
+    justify-content: right;
+    justify-content:top;
+    padding-left: 600px;
+    border-radius: 15px;
   }
   #pic{
     width: 200px;
@@ -231,16 +219,27 @@ nav ul li ul a:hover, .nav-active {
 }
 
 #item-list{
-    justify-content: right;
-    padding-right: 200px;
-
-}
-
-
-.contact-container{
     justify-content: center;
-    padding-left: 400px;
+   
+   
 }
+aside{
+    flex: 30%;
+    padding: 20px;
+    justify-content: left;
+}
+section{
+    flex: 70%;
+    padding: 20px;
+    justify-content: right;
+    
+
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
 
 #comment-data{
     display: inline-block;
@@ -263,3 +262,15 @@ nav ul li ul a:hover, .nav-active {
     justify-content: center;
 }
 #comment-data:hover {background-color: #4cadfd }
+/*Styling for comment section*/
+#name-input,#item-input,#comment-input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #08afaf; 
+    padding: 10px;
+    border-radius: 15px;
+}
