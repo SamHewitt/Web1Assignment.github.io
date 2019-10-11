@@ -27,28 +27,43 @@
          </nav>
             <p id = "p3">Helmets</p>
            <!--json file displayed here-->
-            <legend><ul id = "item-list"></ul></legend>
-
-            <form id = "f1">
+           <div class="row">
+                <section>
+                 <form>
                     <fieldset>
-                              <legend>Review A Helmet</legend>
-                      <label>Name</label>
-                      <br>
-                      <input class = "text" name = "Name" required = "true" id = "contact-name" class = "input" placeholder = "Your Name">
-                      <br>     
-                      <Label>Helmet Name</Label>                   
-                      <br>
-                      <input class = "text" name = "Helmet Name" required = "true" id = "contact-name" class = "input" placeholder = "Helmet Name">                 
-                      <br>
-                      <label>Review</label>
-                      <br>
-                      <textarea class ="text" required="true" id="contact-message" cols="35" rows="8" class="input-form" placeholder="Enter your message:"></textarea>          
-                      <br>
-                      <input class="submit-btn" type="submit" value="Submit">
-                      <br>
-                      <br>
-                  </fieldset>
-             </form>
+                              <legend id = p1> Review A Helmet</legend>
+                              <label>Name<br>
+                              <input class = "text" id="name-input" required = "true" cols="15" rows="3" placeholder="Your name" required></input>
+                              </label><br>
+                              <label>Item name<br>
+                              <input class = "text" id="item-input" required = "true" cols="15" rows="3" placeholder="Helmet name"></input>
+                              </label><br>
+                              <label>Review<br>
+                              <textarea class ="comment" required="true" id="comment-input" required cols="35" rows="10" placeholder="Your review"></textarea>
+                              </label><br>
+                              <input id="comment-data" type="button" value="Post"/>
+                              <br>
+                              <br>
+                    </fieldset>
+                  </form>
+                
+                    <!--Comment displayed here-->
+                    <div id = f1>
+                       
+                        <p id="name-output"></p>
+                        <p id="item-output"></p>
+                        <p id="comment-output"></p>
+                        <p id="datetime"></p>
+                   
+                      </div>
+                    </section>
+                
+                        <!--json file displayed here-->
+                   <aside>
+                       <legend><ul id = "item-list"></ul></legend>
+                   </aside> 
+               
+               </div>
                   <footer id="p1">Copyright © Sam Hewitt 2019 </footer>
                   <script src="./assets/js/helmets.js"></script>
 </body>

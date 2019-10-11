@@ -27,31 +27,42 @@
                 </ul>
             </nav>
     <p id = "p3">Motorcycles</p>
-    <!--json file displayed here-->
-        <legend><ul id = "item-list"></ul></legend>
-        <aside>
-        <form id = "f1">
-            <fieldset>
-                      <legend>Review A Motorcycle</legend>
-              <label>Name</label>
-              <br>
-              <input class = "text" name = "Name" required = "true" id = "contact-name" class = "input" placeholder = "Your Name">
-              <br>   
-              <Label>Motorcycle Name</Label>                   
-              <br>
-              <input class = "text" name = "Motorcycle Name" required = "true" id = "contact-name" class = "input" placeholder = "Motorcycle Name">
-              <br>
-              <label>Review</label>
-              <br>
-              <textarea class ="text" required="true" id="contact-message" cols="35" rows="8" class="input-form" placeholder="Enter your message:"></textarea>          
-              <br>
-              <input class="submit-btn" type="submit" value="Submit">
-              <br>
-              <br>
-          </fieldset>
-     </form>
-    </aside>
 
+        <!--review form-->
+        <div class="row">
+                <section>
+                 <form>
+                    <fieldset>
+                              <legend id = p1> Review A Motorcycle</legend>
+                              <label>Name<br>
+                              <input class = "text" id="name-input" required = "true" cols="15" rows="3" placeholder="Your name" required></input>
+                              </label><br>
+                              <label>Item name<br>
+                              <input class = "text" id="item-input" required = "true" cols="15" rows="3" placeholder="Motorcycle name"></input>
+                              </label><br>
+                              <label>Review<br>
+                              <textarea class ="comment" required="true" id="comment-input" required cols="35" rows="10" placeholder="Your review"></textarea>
+                              </label><br>
+                              <input id="comment-data" type="button" value="Post"/>
+                              <br>
+                              <br>
+                    </fieldset>
+                  </form>
+                  <!--comment displayed here-->
+                  <div id = f1>
+           
+                        <p id="name-output"></p>
+                        <p id="item-output"></p>
+                        <p id="comment-output"></p>
+                        <p id="datetime"></p>
+                   
+                      </div>
+                    </section>
+    <!--json file displayed here-->
+    <aside>
+    <legend><ul id = "item-list"></ul></legend>
+   </aside>
+   
     <footer id="p1">Copyright © Sam Hewitt 2019 </footer>
     <script src="./assets/js/motorcycles.js"></script>
 </body>
