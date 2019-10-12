@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel = "stylesheet">
     <title>Jackets</title>
 </head>
 <body>  <nav>
@@ -31,24 +32,11 @@
     <!--review form-->
     <div class="row">
     <section>
-        
+           
      <form>
+           
         <fieldset>
-                <div class="stars">
-                        <form action="">
-                          <input class="star star-5" id="star-5" type="radio" name="star"/>
-                          <label class="star star-5" for="star-5"></label>
-                          <input class="star star-4" id="star-4" type="radio" name="star"/>
-                          <label class="star star-4" for="star-4"></label>
-                          <input class="star star-3" id="star-3" type="radio" name="star"/>
-                          <label class="star star-3" for="star-3"></label>
-                          <input class="star star-2" id="star-2" type="radio" name="star"/>
-                          <label class="star star-2" for="star-2"></label>
-                          <input class="star star-1" id="star-1" type="radio" name="star"/>
-                          <label class="star star-1" for="star-1"></label>
-                        </form>
-                    </div>
-                  <legend id = p1> Review A Jacket</legend>
+                <legend> Review A Jacket
                   <label>Name<br>
                   <input class = "text" id="name-input" required = "true" cols="15" rows="3" placeholder="Your name" required></input>
                   </label><br>
@@ -60,12 +48,89 @@
                   </label><br>  
                   <input id="comment-data" type="button" value="Post"/><br>
      
-                  <br><br>           
+                  <br><br>     
+                </legend>
         </fieldset>
-      </form>
-
    
-
+      </form>
+    
+      <aside>
+          <!--Star Rating-->
+          <legend>Rate an Item
+      <div class="container mt-5">
+            <div class="form-group">
+              <select id="product-select" class="form-control custom-select">
+                  <option value="0" disabled selected>Select Product</option>
+                  <option value="revit">Rev'it Sports Jacket</option>
+                  <option value="falstaff">Falstaff Sports Jacket</option>
+                  <option value="leatherking">Leather King Crusier Jacket</option>
+                  <option value="thordirt">Thor Dirt Bike Jersey</option>
+                  <option value="thorsports">Thor Sports Jacket</option>
+                </select>
+            </div>
+        </legend>
+            <div class="form-group">
+              <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Rate 1 - 5" disabled>
+            </div>
+          
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Rate A Jacket</th>
+                  <th>Rating</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="revit">
+                  <td>Rev'it Sports jacket</td>
+                  <td>
+                    <div class="stars-outer">
+                      <div class="stars-inner"></div>
+                    </div>
+                    <span class="number-rating"></span>
+                  </td>
+                </tr>
+                <tr class="falstaff">
+                  <td>Falstaff Sports Jacket</td>
+                  <td>
+                    <div class="stars-outer">
+                      <div class="stars-inner"></div>
+                    </div>
+                    <span class="number-rating"></span>
+                  </td>
+                </tr>
+                <tr class="leatherking">
+                  <td>Leather King Crusier Jacket</td>
+                  <td>
+                    <div class="stars-outer">
+                      <div class="stars-inner"></div>
+                    </div>
+                    <span class="number-rating"></span>
+                  </td>
+                </tr>
+                <tr class="thordirt">
+                  <td>Thor Dirt Bike Jersey</td>
+                  <td>
+                    <div class="stars-outer">
+                      <div class="stars-inner"></div>
+                    </div>
+                    <span class="number-rating"></span>
+                  </td>
+                </tr>
+                <tr class="thorsports">
+                  <td>Thor Sports Jacket</td>
+                  <td>
+                    <div class="stars-outer">
+                      <div class="stars-inner"></div>
+                    </div>
+                    <span class="number-rating"></span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+   
+        </aside>
         <!--Comment displayed here-->
         <div id = f1>
            
@@ -86,6 +151,7 @@
 
 
           <footer id="p1">Copyright © Sam Hewitt 2019 </footer>
+          
           <script src="./assets/js/jackets.js"></script>
 </body>
 </html>
