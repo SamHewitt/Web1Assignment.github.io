@@ -55,7 +55,7 @@ footer{
 
 }
 #p2{
-    background-color: #14b805;
+    background-color: #4bbe40;
     color:#ffffff;
     border-style: solid;
     border-color: #000000;
@@ -324,7 +324,7 @@ nav ul li ul a:hover, .nav-active {
     color: rgb(255, 255, 255);
     background-color: rgb(173, 27, 27);
     height: 30px;
-    border-radius: 15px;
+    border-radius: 6px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;;
     font-size: 22px;
     
@@ -337,4 +337,11 @@ nav ul li ul a:hover, .nav-active {
     border-radius: 15px;
 }
 
-  
+#rating-control{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    font-size: 22px;
+    border-radius: 10px;
+}
