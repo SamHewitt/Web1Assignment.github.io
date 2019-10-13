@@ -33,7 +33,7 @@ const xhr = new XMLHttpRequest();
       const nameVal = document.getElementById('name-input').value
       const itemVal = document.getElementById('item-input').value
       const commentVal = document.getElementById('comment-input').value
-      const datetime = document.lastModified
+      const datetime = new Date();
       const form = document.getElementById('f1')
       if (nameVal.length <= 0){
         alert("please enter a name")
