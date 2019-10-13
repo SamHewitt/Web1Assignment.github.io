@@ -61,11 +61,11 @@ const xhr = new XMLHttpRequest();
 // Star Rating 
 // Initial Ratings
 const ratings = {
-  revit: 4.7,
-  falstaff: 3.4,
-  leatherking: 2.3,
-  thordirt: 3.6,
-  thorsports: 4.1
+  revit: 0,
+  falstaff: 0,
+  leatherking: 0,
+  thordirt: 0,
+  thorsports: 0
 }
 
 // Total Stars

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel = "stylesheet">
     <title>Pants</title>
   </head>
   <body>
@@ -46,7 +47,83 @@
                       <br>
             </fieldset>
           </form>
-        
+          <aside>
+              <!--Star Rating-->
+              <legend>
+          <div class="container mt-5">
+                <div class="form-group">
+                  <select id="product-select" class="form-control custom-select">
+                      <option value="0" disabled selected>Select Product</option>
+                      <option value="rhino">Rhino Nylon</option>
+                      <option value="short">Short Nylon</option>
+                      <option value="astars">Alpine Star Leather</option>
+                      <option value="fly">Fly Moto-Cross</option>
+                      <option value="astarsM">Alpine Stars Moto-x</option>
+                    </select>
+                </div>
+            </legend>
+                <div class="form-group">
+                  <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Rate 1 - 5" disabled>
+                </div>
+              
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+           
+                      <th>Rating</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="rhino">
+                      <td>Rev'it Sports jacket</td>
+                      <td>
+                        <div class="stars-outer">
+                          <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                      </td>    
+                    </tr>
+                    <tr class="short">
+                      <td>Falstaff Sports Jacket</td>
+                      <td>
+                        <div class="stars-outer">
+                          <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                      </td>
+                    </tr>
+                    <tr class="astars">
+                      <td>Leather King Cruiser Jacket</td>
+                      <td>
+                        <div class="stars-outer">
+                          <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                      </td>
+                    </tr>
+                    <tr class="fly">
+                      <td>Thor Dirt Bike Jersey</td>
+                      <td>
+                        <div class="stars-outer">
+                          <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                      </td>
+                    </tr>
+                    <tr class="astarsM">
+                      <td>Thor Sports Jacket</td>
+                      <td>
+                        <div class="stars-outer">
+                          <div class="stars-inner"></div>
+                        </div>
+                        <span class="number-rating"></span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+       
+            </aside>
             <!--Comment displayed here-->
             <div id = f1>
                

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel = "stylesheet">
     <title>Helmets</title>
 </head>
 <body>
@@ -31,7 +32,7 @@
                 <section>
                  <form>
                     <fieldset>
-                              <legend id = p1> Review A Helmet</legend>
+                              <legend id = "p1"> Review A Helmet</legend>
                               <label>Name<br>
                               <input class = "text" id="name-input" required = "true" cols="15" rows="3" placeholder="Your name" required></input>
                               </label><br>
@@ -46,7 +47,84 @@
                               <br>
                     </fieldset>
                   </form>
-                
+
+                  <aside>
+                        <!--Star Rating-->
+                        <legend>
+                    <div class="container mt-5">
+                          <div class="form-group">
+                            <select id="product-select" class="form-control custom-select">
+                                <option value="0" disabled selected>Select Product</option>
+                                <option value="shoei">Shoei GT Air</option>
+                                <option value="bell">Bell Moto 9</option>
+                                <option value="blue">Blue Typhoon K77</option>
+                                <option value="hedon">Hedon</option>
+                                <option value="duchinni">Duchinni Colt D405</option>
+                              </select>
+                          </div>
+                      </legend>
+                  <div class="form-group">
+                        <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Rate 1 - 5" disabled>
+                      </div>
+                    
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                 
+                            <th>Rating</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="shoei">
+                            <td>Shoei GT Air</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>    
+                          </tr>
+                          <tr class="bell">
+                            <td>Bell Moto 9</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                          <tr class="blue">
+                            <td>Blue Typhoon K77</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                          <tr class="hedon">
+                            <td>Hedon</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                          <tr class="duchinni">
+                            <td>Duchinni Colt D405</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+             
+                  </aside>
                     <!--Comment displayed here-->
                     <div id = f1>
                        

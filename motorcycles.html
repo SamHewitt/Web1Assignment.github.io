@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel = "stylesheet">
     <title>Motorcycles</title>
 </head>
 <body>
@@ -33,7 +34,7 @@
                 <section>
                  <form>
                     <fieldset>
-                              <legend id = p1> Review A Motorcycle</legend>
+                              <legend id = "p1"> Review A Motorcycle</legend>
                               <label>Name<br>
                               <input class = "text" id="name-input" required = "true" cols="15" rows="3" placeholder="Your name" required></input>
                               </label><br>
@@ -48,6 +49,83 @@
                               <br>
                     </fieldset>
                   </form>
+                  <aside>
+                        <!--Star Rating-->
+                        <legend>
+                    <div class="container mt-5">
+                          <div class="form-group">
+                            <select id="product-select" class="form-control custom-select">
+                                <option value="0" disabled selected>Select Product</option>
+                                <option value="kawasaki">Kawasaki Ninja 300</option>
+                                <option value="kawasakih2r">Kawasaki H2R</option>
+                                <option value="harley">Harley Davidson Bobber 600</option>
+                                <option value="triumph">Triumph Bobber 800</option>
+                                <option value="honda">Honda CR250R</option>
+                              </select>
+                          </div>
+                      </legend>
+                  <div class="form-group">
+                        <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Rate 1 - 5" disabled>
+                      </div>
+                    
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                 
+                            <th>Rating</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="kawasaki">
+                            <td>kawasaki Ninja 300</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>    
+                          </tr>
+                          <tr class="kawasakih2r">
+                            <td>kawasaki H2R</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                          <tr class="harley">
+                            <td>Harley Davidson Bobber 600</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                          <tr class="triumph">
+                            <td>Triumph Bobber 800</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                          <tr class="honda">
+                            <td>Honda CR250R</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+             
+                  </aside>
                   <!--comment displayed here-->
                   <div id = f1>
            
