@@ -55,7 +55,7 @@ footer{
 
 }
 #p2{
-    background-color: #4bbe40;
+    background-color: #42e089;
     color:#ffffff;
     border-style: solid;
     border-color: #000000;
@@ -63,6 +63,7 @@ footer{
     text-align: left;
     padding: 20px;
     border-radius: 15px;
+    width: 400px;
 
 
 }

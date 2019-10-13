@@ -47,6 +47,7 @@ const xhr = new XMLHttpRequest();
       {
       form.innerHTML =
         `<div id = "p2">  
+        <h3>Review</h3><br>
         <p>Name:${nameVal}</p><br>
         <p>Item:${itemVal}</p><br>
         <p>Review:${commentVal}</p><br>
