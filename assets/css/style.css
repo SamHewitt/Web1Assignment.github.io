@@ -43,7 +43,7 @@ footer{
 
 #p1{
     background-color:rgb(136, 136, 136);
-    color:#555555;
+    color:#ffffff;
     text-align: center;
     margin: auto;
     font-size: 30px;
@@ -52,8 +52,7 @@ footer{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-   
-    border-radius: 15px;
+
 
 }
 #p2{
@@ -89,7 +88,6 @@ footer{
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
-    border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
     text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
