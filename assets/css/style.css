@@ -358,3 +358,7 @@ nav ul li ul a:hover, .nav-active {
     font-size: 22px;
     border-radius: 10px;
 }
+
+.product-select{
+border-radius: 15px;
+}
