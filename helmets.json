@@ -1,41 +1,37 @@
 [
-    { 
-      
-      "id": 6,
-      "img":"https://www.cyclegear.com/_a/product_images/0070/3821/shoei_rf1200_helmet_solid_matte_black_300x300.jpg",
-      "helmetName": "Shoei GT Air",
-      "helmetType": "Sports helmet",
-      "helmetSummary":"This helmet is for full faced sports bike riding"
-      
-    },    
-    {
-      "id": 7,
-      "img":"https://cdn11.bigcommerce.com/s-7nlvmei/images/stencil/1280x1280/products/9278/18725/bell_helmets_moto9_flex_seven_zone_helmet_navy_coral_750x750__36296.1541704567.jpg?c=2&imbypass=on",
-      "helmetName": "Bell Moto 9",
-      "helmetType": "Dirt helmet",
-      "helmetSummary":"This helmet is for dirt bike riding"
-      },    
-      {
-        "id": 8,
-        "img":"https://cdn11.bigcommerce.com/s-16vlv9/images/stencil/1024x1024/products/2220/13932/DOT-motorcycle-helmet__04963.1532976769.jpg?c=2",
-        "helmetName": "Blue Typhoon K77",
-        "helmetType": "Quad helmet",
-        "helmetSummary":"This helmet is designed for Quad bikes and snow mobiles"
-      }
-      ,    
-      {
-        "id": 9,
-      "img":"https://d3hp8xnxb3lun4.cloudfront.net/media/catalog/product/cache/d9b3fe379a7214b9d4ea381b7da7c499/h/e/hedon-black-stable-open-face-motorcycle-helmet-1.jpg",
-      "helmetName": "Hedon",
-      "helmetType": "Open face helmet",
-      "helmetSummary":"This helmet is suited for bobbers and cruisers"
-      }
-      ,    
-      {
-        "id": 10,
-        "img":"https://i1.adis.ws/i/washford/557600?$pm_large$",
-        "helmetName": "Duchinni Colt D405",
-        "helmetType": "Sports helmet",
-        "helmetSummary":"This helmet is for high speed sports bikes"
-      }
+  {
+    "id": 6,
+    "img": "https://www.cyclegear.com/_a/product_images/0070/3821/shoei_rf1200_helmet_solid_matte_black_300x300.jpg",
+    "helmetName": "Shoei GT Air",
+    "helmetType": "Sports helmet",
+    "helmetSummary": "This helmet is for full faced sports bike riding"
+  },
+  {
+    "id": 7,
+    "img": "https://cdn11.bigcommerce.com/s-7nlvmei/images/stencil/1280x1280/products/9278/18725/bell_helmets_moto9_flex_seven_zone_helmet_navy_coral_750x750__36296.1541704567.jpg?c=2&imbypass=on",
+    "helmetName": "Bell Moto 9",
+    "helmetType": "Dirt helmet",
+    "helmetSummary": "This helmet is for dirt bike riding"
+  },
+  {
+    "id": 8,
+    "img": "https://cdn11.bigcommerce.com/s-16vlv9/images/stencil/1024x1024/products/2220/13932/DOT-motorcycle-helmet__04963.1532976769.jpg?c=2",
+    "helmetName": "Blue Typhoon K77",
+    "helmetType": "Quad helmet",
+    "helmetSummary": "This helmet is designed for Quad bikes and snow mobiles"
+  },
+  {
+    "id": 9,
+    "img": "https://d3hp8xnxb3lun4.cloudfront.net/media/catalog/product/cache/d9b3fe379a7214b9d4ea381b7da7c499/h/e/hedon-black-stable-open-face-motorcycle-helmet-1.jpg",
+    "helmetName": "Hedon",
+    "helmetType": "Open face helmet",
+    "helmetSummary": "This helmet is suited for bobbers and cruisers"
+  },
+  {
+    "id": 10,
+    "img": "https://i1.adis.ws/i/washford/557600?$pm_large$",
+    "helmetName": "Duchinni Colt D405",
+    "helmetType": "Sports helmet",
+    "helmetSummary": "This helmet is for high speed sports bikes"
+  }
 ]

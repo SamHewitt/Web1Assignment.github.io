@@ -1,41 +1,37 @@
 [
-    { 
-      
-      "id": 11,
-      "img":"https://cdn.webshopapp.com/shops/101410/files/248117174/image.jpg",
-      "jacketName": "Rev'it",
-      "jacketType": "Sports Jacket",
-      "jacketSummary":"This Nylon jacket is for sports bike riders"
-      
-    },    
-    {
-      "id": 12,
-      "img":"https://smhttp-ssl-26404.nexcesscdn.net/media/catalog/product/cache/1/image/960x/040ec09b1e35df139433887a97daa66f/1/7/170_9b.jpg",
-      "jacketName": "Falstaff",
-      "jacketType": "Sports Jacket",
-      "jacketSummary":"This Waterproof waxed cotton jacket is best suited for long rides"
-      },    
-      {
-        "id": 13,
-        "img":"https://www.bootbarn.com/dw/image/v2/BCCF_PRD/on/demandware.static/-/Sites-master-product-catalog-shp/default/dwffd155a9/images/442/2000237442_001_P1.JPG?sw=980&sh=980&sm=fit",
-        "jacketName": "Leather King",
-        "jacketType": "Cruiser Jacket",
-        "jacketSummary":"This Jackets is suited for old school cruiser bikes"
-      }
-      ,    
-      {
-        "id": 14,
-      "img":"https://trademe.tmcdn.co.nz/photoserver/plusw/525662280.jpg",
-      "jacketName": "Thor",
-      "jacketType": "Dirt Bike Jersey",
-      "jacketSummary":"This lightweight, nylon, dirt bike jersey is for moto-cross"
-      }
-      ,    
-      {
-        "id": 15,
-        "img":"https://www.revzilla.com/product_images/0397/4529/thor_jackt_s9_terain_gncamo_300x300.jpg",
-        "jacketName": "Thor",
-        "jacketType": "Sports Jacket",
-        "jacketSummary":"This nylon jacket is suited for sports bikes"
-      }
+  {
+    "id": 11,
+    "img": "https://cdn.webshopapp.com/shops/101410/files/248117174/image.jpg",
+    "jacketName": "Rev'it",
+    "jacketType": "Sports Jacket",
+    "jacketSummary": "This Nylon jacket is for sports bike riders"
+  },
+  {
+    "id": 12,
+    "img": "https://smhttp-ssl-26404.nexcesscdn.net/media/catalog/product/cache/1/image/960x/040ec09b1e35df139433887a97daa66f/1/7/170_9b.jpg",
+    "jacketName": "Falstaff",
+    "jacketType": "Sports Jacket",
+    "jacketSummary": "This Waterproof waxed cotton jacket is best suited for long rides"
+  },
+  {
+    "id": 13,
+    "img": "https://www.bootbarn.com/dw/image/v2/BCCF_PRD/on/demandware.static/-/Sites-master-product-catalog-shp/default/dwffd155a9/images/442/2000237442_001_P1.JPG?sw=980&sh=980&sm=fit",
+    "jacketName": "Leather King",
+    "jacketType": "Cruiser Jacket",
+    "jacketSummary": "This Jackets is suited for old school cruiser bikes"
+  },
+  {
+    "id": 14,
+    "img": "https://trademe.tmcdn.co.nz/photoserver/plusw/525662280.jpg",
+    "jacketName": "Thor",
+    "jacketType": "Dirt Bike Jersey",
+    "jacketSummary": "This lightweight, nylon, dirt bike jersey is for moto-cross"
+  },
+  {
+    "id": 15,
+    "img": "https://www.revzilla.com/product_images/0397/4529/thor_jackt_s9_terain_gncamo_300x300.jpg",
+    "jacketName": "Thor",
+    "jacketType": "Sports Jacket",
+    "jacketSummary": "This nylon jacket is suited for sports bikes"
+  }
 ]

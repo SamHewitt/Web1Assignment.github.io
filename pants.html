@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png"/>
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel = "stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./assets/images/favicon.png"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+      rel="stylesheet"
+    />
     <title>Pants</title>
   </head>
   <body>
@@ -26,123 +33,152 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <p id = "p3">Pants</p>
+    <p id="p3">Pants</p>
     <!--review form-->
     <div class="row">
-        <section>
-         <form>
-            <fieldset>
-                      <legend id = p1> Review A Pair Of Pants</legend>
-                      <label>Name<br>
-                      <input class = "text" id="name-input" required = "true" cols="15" rows="3" placeholder="Your name" required></input>
-                      </label><br>
-                      <label>Item name<br>
-                      <input class = "text" id="item-input" required = "true" cols="15" rows="3" placeholder="Pants name"></input>
-                      </label><br>
-                      <label>Review<br>
-                      <textarea class ="comment" required="true" id="comment-input" required cols="35" rows="10" placeholder="Your review"></textarea>
-                      </label><br>
-                      <input id="comment-data" type="button" value="Post"/>
-                      <br>
-                      <br>
-            </fieldset>
-          </form>
-          <aside>
-              <!--Star Rating-->
-              <div class="item-listing">
-          <div class="container mt-5">
-                <div class="form-group">
-                  <select id="product-select" class="form-control custom-select">
-                      <option value="0" disabled selected>Select Product</option>
-                      <option value="rhino">Rhino Nylon</option>
-                      <option value="short">Short Nylon</option>
-                      <option value="astars">Alpine Star Leather</option>
-                      <option value="fly">Fly Moto-Cross</option>
-                      <option value="astarsM">Alpine Stars Moto-x</option>
-                    </select>
+      <section>
+        <form>
+          <fieldset>
+            <legend id="p1">Review A Pair Of Pants</legend>
+            <label
+              >Name<br />
+              <input
+                class="text"
+                id="name-input"
+                required="true"
+                cols="15"
+                rows="3"
+                placeholder="Your name"
+                required
+              /> </label
+            ><br />
+            <label
+              >Item name<br />
+              <input
+                class="text"
+                id="item-input"
+                required="true"
+                cols="15"
+                rows="3"
+                placeholder="Pants name"
+              /> </label
+            ><br />
+            <label
+              >Review<br />
+              <textarea
+                class="comment"
+                required="true"
+                id="comment-input"
+                required
+                cols="35"
+                rows="10"
+                placeholder="Your review"
+              ></textarea> </label
+            ><br />
+            <input id="comment-data" type="button" value="Post" />
+            <br />
+            <br />
+          </fieldset>
+        </form>
+        <aside>
+          <!--Star Rating-->
+          <div class="item-listing">
+            <div class="container mt-5">
+              <div class="form-group">
+                <select id="product-select" class="form-control custom-select">
+                  <option value="0" disabled selected>Select Product</option>
+                  <option value="rhino">Rhino Nylon</option>
+                  <option value="short">Short Nylon</option>
+                  <option value="astars">Alpine Star Leather</option>
+                  <option value="fly">Fly Moto-Cross</option>
+                  <option value="astarsM">Alpine Stars Moto-x</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <input
+                type="number"
+                id="rating-control"
+                class="form-control"
+                step="0.1"
+                max="5"
+                placeholder="Rate 1 - 5"
+                disabled
+              />
+            </div>
+
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Rating</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="rhino">
+                  <td>Rhino Nylon Pants</td>
+                  <td>
+                    <div class="stars-outer">
+                      <div class="stars-inner"></div>
                     </div>
-                </div>
-         
-                <div class="form-group">
-                  <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Rate 1 - 5" disabled>
-                </div>
-              
-                <table class="table table-striped">
-                  <thead>
-                    <tr>
-                     
-                      <th>Rating</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="rhino">
-                      <td>Rhino Nylon Pants</td>
-                      <td>
-                        <div class="stars-outer">
-                          <div class="stars-inner"></div>
-                        </div>
-                        <span class="number-rating"></span>
-                      </td>    
-                    </tr>
-                    <tr class="short">
-                      <td>Short Nylon Pants</td>
-                      <td>
-                        <div class="stars-outer">
-                          <div class="stars-inner"></div>
-                        </div>
-                        <span class="number-rating"></span>
-                      </td>
-                    </tr>
-                    <tr class="astars">
-                      <td>Alpine Stars Leather Pants</td>
-                      <td>
-                        <div class="stars-outer">
-                          <div class="stars-inner"></div>
-                        </div>
-                        <span class="number-rating"></span>
-                      </td>
-                    </tr>
-                    <tr class="fly">
-                      <td>Fly Moto-Cross Pants</td>
-                      <td>
-                        <div class="stars-outer">
-                          <div class="stars-inner"></div>
-                        </div>
-                        <span class="number-rating"></span>
-                      </td>
-                    </tr>
-                    <tr class="astarsM">
-                      <td>Alpine Stars Moto-Cross Pants</td>
-                      <td>
-                        <div class="stars-outer">
-                          <div class="stars-inner"></div>
-                        </div>
-                        <span class="number-rating"></span>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-       
-            </aside>
-            <!--Comment displayed here-->
-            <div id = f1>
-               
-                <p id="name-output"></p>
-                <p id="item-output"></p>
-                <p id="comment-output"></p>
-                <p id="datetime"></p>
-           
-              </div>
-            </section>
-        
-                <!--json file displayed here-->
-           <aside>
-               <legend><ul id = "item-list"></ul></legend>
-           </aside> 
-       
-       </div>
-    <footer id="p1">Copyright © Sam Hewitt 2019 </footer>
+                    <span class="number-rating"></span>
+                  </td>
+                </tr>
+                <tr class="short">
+                  <td>Short Nylon Pants</td>
+                  <td>
+                    <div class="stars-outer">
+                      <div class="stars-inner"></div>
+                    </div>
+                    <span class="number-rating"></span>
+                  </td>
+                </tr>
+                <tr class="astars">
+                  <td>Alpine Stars Leather Pants</td>
+                  <td>
+                    <div class="stars-outer">
+                      <div class="stars-inner"></div>
+                    </div>
+                    <span class="number-rating"></span>
+                  </td>
+                </tr>
+                <tr class="fly">
+                  <td>Fly Moto-Cross Pants</td>
+                  <td>
+                    <div class="stars-outer">
+                      <div class="stars-inner"></div>
+                    </div>
+                    <span class="number-rating"></span>
+                  </td>
+                </tr>
+                <tr class="astarsM">
+                  <td>Alpine Stars Moto-Cross Pants</td>
+                  <td>
+                    <div class="stars-outer">
+                      <div class="stars-inner"></div>
+                    </div>
+                    <span class="number-rating"></span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </aside>
+        <!--Comment displayed here-->
+        <div id="f1">
+          <p id="name-output"></p>
+          <p id="item-output"></p>
+          <p id="comment-output"></p>
+          <p id="datetime"></p>
+        </div>
+      </section>
+
+      <!--json file displayed here-->
+      <aside>
+        <legend><ul id="item-list"></ul></legend>
+      </aside>
+    </div>
+    <footer id="p1">Copyright © Sam Hewitt 2019</footer>
     <script src="./assets/js/pants.js"></script>
   </body>
 </html>

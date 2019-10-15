@@ -1,83 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png"/>
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel = "stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./assets/images/favicon.png"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+      rel="stylesheet"
+    />
     <title>Jackets</title>
-</head>
-<body>  <nav>
-        <ul>
-            <li><a  href="index.html">Home</a></li>
-            <li><a href="#">Items</a>
-                <ul class="dropdown-1"> 
-                    <li><a  href="motorcycles.html">Motorcycles</a></li>
-                    <li><a  href="helmets.html">Helmets</a></li>
-                    <li><a class="nav-active" href="jackets.html">Jackets</a></li>
-                    <li><a href="pants.html">Pants</a></li>
-
-                </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="#">Items</a>
+          <ul class="dropdown-1">
+            <li><a href="motorcycles.html">Motorcycles</a></li>
+            <li><a href="helmets.html">Helmets</a></li>
+            <li><a class="nav-active" href="jackets.html">Jackets</a></li>
+            <li><a href="pants.html">Pants</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-  
-    <p id = "p3">Jackets</p>
-  
-       
+
+    <p id="p3">Jackets</p>
+
     <!--review form-->
     <div class="row">
-    <section>
-           
-     <form>
-           
-        <fieldset>
-                <legend id = "p1"> Review A Jacket</legend>
-                  <label>Name<br>
-                  <input class = "text" id="name-input" required = "true" cols="15" rows="3" placeholder="Your name" required></input>
-                  </label><br>
-                  <label>Item name<br>
-                  <input class = "text" id="item-input" required = "true" cols="15" rows="3" placeholder="Jacket name"></input>
-                  </label><br>
-                  <label>Review<br>
-                  <textarea class ="comment" required="true" id="comment-input" required cols="35" rows="10" placeholder="Your review"></textarea>
-                  </label><br>  
-                  <input id="comment-data" type="button" value="Post"/><br>
-     
-                  <br><br>     
-            
-        </fieldset>
-   
-      </form>
-    
-      <aside>
+      <section>
+        <form>
+          <fieldset>
+            <legend id="p1">Review A Jacket</legend>
+            <label
+              >Name<br />
+              <input
+                class="text"
+                id="name-input"
+                required="true"
+                placeholder="Your name"
+                required
+              /> </label
+            ><br />
+            <label
+              >Item name<br />
+              <input
+                class="text"
+                id="item-input"
+                required="true"
+                placeholder="Jacket name"
+              /> </label
+            ><br />
+            <label
+              >Review<br />
+              <textarea
+                class="comment"
+                required="true"
+                id="comment-input"
+                required
+                cols="35"
+                rows="10"
+                placeholder="Your review"
+              ></textarea> </label
+            ><br />
+            <input id="comment-data" type="button" value="Post" /><br />
+
+            <br /><br />
+          </fieldset>
+        </form>
+
+        <aside>
           <!--Star Rating-->
           <div class="item-listing">
-      <div class="container mt-5">
-            <div class="form-group">
-              <select id="product-select" class="form-control custom-select">
+            <div class="container mt-5">
+              <div class="form-group">
+                <select id="product-select" class="form-control custom-select">
                   <option value="0" disabled selected>Select Product</option>
                   <option value="revit">Rev'it Sports Jacket</option>
                   <option value="falstaff">Falstaff Sports Jacket</option>
-                  <option value="leatherking">Leather King Crusier Jacket</option>
+                  <option value="leatherking"
+                    >Leather King Crusier Jacket</option
+                  >
                   <option value="thordirt">Thor Dirt Bike Jersey</option>
                   <option value="thorsports">Thor Sports Jacket</option>
                 </select>
               </div>
             </div>
-        
+
             <div class="form-group">
-              <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Rate 1 - 5" disabled>
+              <input
+                type="number"
+                id="rating-control"
+                class="form-control"
+                step="0.1"
+                max="5"
+                placeholder="Rate 1 - 5"
+                disabled
+              />
             </div>
-          
+
             <table class="table table-striped">
               <thead>
                 <tr>
-       
                   <th>Rating</th>
                 </tr>
               </thead>
@@ -89,7 +123,7 @@
                       <div class="stars-inner"></div>
                     </div>
                     <span class="number-rating"></span>
-                  </td>    
+                  </td>
                 </tr>
                 <tr class="falstaff">
                   <td>Falstaff Sports Jacket</td>
@@ -130,29 +164,28 @@
               </tbody>
             </table>
           </div>
-   
         </aside>
         <!--Comment displayed here-->
-        <div id = f1>
-           
-            <p id="name-output"></p>
-            <p id="item-output"></p>
-            <p id="comment-output"></p>
-            <p id="datetime"></p>
-            
-          </div>
-        </section>
-    
-            <!--json file displayed here-->
-       <aside>
-           <legend><ul id = "item-list"><br></ul></legend>
-       </aside> 
-   
-   </div>
+        <div id="f1">
+          <p id="name-output"></p>
+          <p id="item-output"></p>
+          <p id="comment-output"></p>
+          <p id="datetime"></p>
+        </div>
+      </section>
 
+      <!--json file displayed here-->
+      <aside>
+        <legend>
+          <ul id="item-list">
+            <br />
+          </ul>
+        </legend>
+      </aside>
+    </div>
 
-          <footer id="p1">Copyright © Sam Hewitt 2019 </footer>
-          
-          <script src="./assets/js/jackets.js"></script>
-</body>
+    <footer id="p1">Copyright © Sam Hewitt 2019</footer>
+
+    <script src="./assets/js/jackets.js"></script>
+  </body>
 </html>

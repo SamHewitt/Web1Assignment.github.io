@@ -1,11 +1,9 @@
 [
-    { 
-      
-      "id": 21,
-      "img":"https://imgd.aeplcdn.com/1280x720/bw/ec/32918/Suzuki-Hayabusa-Front-threequarter-117999.jpg?wm=2",
-      "bikeName": "Suzuki Hayabusa 2018",
-      "bikeType": "Sports Bike",
-      "bikeSummary":"The Suzuki Hayabusa (or GSX1300R) is a sport bike motorcycle made by Suzuki since 1999. It immediately won acclaim as the world's fastest production motorcycle, with a top speed of 303 to 312 km/h (188 to 194 mph)."
-      
-    }
+  {
+    "id": 21,
+    "img": "https://imgd.aeplcdn.com/1280x720/bw/ec/32918/Suzuki-Hayabusa-Front-threequarter-117999.jpg?wm=2",
+    "bikeName": "Suzuki Hayabusa 2018",
+    "bikeType": "Sports Bike",
+    "bikeSummary": "The Suzuki Hayabusa (or GSX1300R) is a sport bike motorcycle made by Suzuki since 1999. It immediately won acclaim as the world's fastest production motorcycle, with a top speed of 303 to 312 km/h (188 to 194 mph)."
+  }
 ]
