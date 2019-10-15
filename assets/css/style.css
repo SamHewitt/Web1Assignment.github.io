@@ -36,7 +36,7 @@ footer {
   color: #ffffff;
   text-decoration: none;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   justify-content: center;
 }
 
@@ -51,6 +51,7 @@ footer {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 15px;
 }
 
 #p2 {
@@ -61,23 +62,10 @@ footer {
   border-width: 2px;
   text-align: left;
   padding: 20px;
-  border-radius: 15px;
   width: 400px;
 }
 
-#featured {
-  background-color: #969696;
-  color: #ffffff;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 2px;
-  text-align: left;
-  padding: 20px;
-  border-radius: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-}
+
 
 #p3 {
   background-color: #797979;
@@ -91,7 +79,19 @@ footer {
   text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white,
     2px 2px 0 white;
 }
-
+#featured {
+  background-color: #969696;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
 .text {
   color: #fff;
 }
@@ -103,7 +103,7 @@ nav {
   padding-bottom: 1%;
   text-align: center;
 }
-
+/*navigation drop down bar styling*/
 nav a {
   display: flex;
   color: black;
@@ -185,10 +185,6 @@ nav ul li ul a:hover,
   border-radius: 10px;
 }
 
-#item-list {
-  padding-top: 30px;
-}
-
 /*  styling for submit button on contact page  */
 .submit-btn {
   display: inline-block;
@@ -245,10 +241,6 @@ legend {
   height: 150px;
   padding-left: 0%;
   justify-content: left;
-}
-
-#item-list {
-  justify-content: center;
 }
 
 .row {
@@ -361,7 +353,7 @@ legend {
   font-size: 22px;
   border-radius: 10px;
 }
-
+/*styling for product rating selection*/
 .product-select {
   border-radius: 15px;
 }
