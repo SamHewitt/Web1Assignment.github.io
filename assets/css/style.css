@@ -363,3 +363,68 @@ legend {
   vertical-align: middle;
   padding-right: 30px;
 }
+
+.wrapper{
+  width: 100%
+}
+
+/*Resposiveness for multiple devices*/
+
+/*Galaxy s5,pixel 2*/
+@media only screen and (min-width:360px){
+  .wrapper{
+    width: 368px;
+    
+  }
+}
+/*pixel 2 XL*/
+@media only screen and (min-width:411px){
+  .wrapper{
+    width: 410px;
+    
+  }
+}
+/*Laptop with touch*/
+@media only screen and (min-width:1280px){
+  .wrapper{
+    width: 1280px;
+  }
+}
+
+/*iphone 5/SE*/
+@media only screen and (min-width:320px){
+  .wrapper{
+    width: 455px;
+  }
+}
+
+/*Ipad*/
+@media only screen and (min-width: 768px){
+  .wrapper{
+    width:768px;
+  }
+}
+
+/*Ipad Pro*/
+@media only screen and (min-width: 1024px){
+  .wrapper{
+    width:1024px;
+  
+  }
+  
+}
+/*Laptop,desktop*/
+@media only screen and (min-width: 1280px){
+  .wrapper{
+    width:1280px;
+
+  }
+}
+/*My laptop 4k*/
+@media only screen and (min-width: 961px){
+  .wrapper{
+    width:1520px;
+
+  }
+}
+

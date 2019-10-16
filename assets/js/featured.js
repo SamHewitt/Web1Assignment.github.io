@@ -13,7 +13,7 @@ xhr.onload = () => {
 
       list.innerHTML =
         list.innerHTML +
-        `<br>${p.id}<br><img src="${p.img}" height="300" width="430"></img><br>${p.bikeName}<br>${p.bikeType}<br>${p.bikeSummary}</br>`;
+        `<br>${p.id}<br><img src="${p.img}" height="100%" width="100%"></img><br>${p.bikeName}<br>${p.bikeType}<br>${p.bikeSummary}</br>`;
     });
   } else if (xhr.status === 404) {
     console.log("File Not Found");
