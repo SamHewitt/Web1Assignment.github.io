@@ -55,69 +55,70 @@ const showComment = () => {
 };
 document.getElementById("comment-data").addEventListener("click", showComment);
 
+
 // Star Rating
 // Initial Ratings
-const ratings = {
-  kawasaki: 0,
-  kawasakih2r: 0,
-  harley: 0,
-  triumph: 0,
-  honda: 0
-};
+// const ratings = {
+//   kawasaki: 0,
+//   kawasakih2r: 0,
+//   harley: 0,
+//   triumph: 0,
+//   honda: 0
+// };
 
-// Total Stars
-const starsTotal = 5;
+// // Total Stars
+// const starsTotal = 5;
 
-// Run getRatings when DOM loads
-document.addEventListener("DOMContentLoaded", getRatings);
+// // Run getRatings when DOM loads
+// document.addEventListener("DOMContentLoaded", getRatings);
 
-// Form Elements
-const productSelect = document.getElementById("product-select");
-const ratingControl = document.getElementById("rating-control");
+// // Form Elements
+// const productSelect = document.getElementById("product-select");
+// const ratingControl = document.getElementById("rating-control");
 
-// Init product
-let product;
+// // Init product
+// let product;
 
-// Product select change
-productSelect.addEventListener("change", e => {
-  product = e.target.value;
-  // Enable rating control
-  ratingControl.disabled = false;
-  ratingControl.value = ratings[product];
-});
+// // Product select change
+// productSelect.addEventListener("change", e => {
+//   product = e.target.value;
+//   // Enable rating control
+//   ratingControl.disabled = false;
+//   ratingControl.value = ratings[product];
+// });
 
-// Rating control change
-ratingControl.addEventListener("blur", e => {
-  const rating = e.target.value;
+// // Rating control change
+// ratingControl.addEventListener("blur", e => {
+//   const rating = e.target.value;
 
-  // Make sure 5 or under
-  if (rating > 5) {
-    alert("Please rate 1 - 5");
-    return;
-  }
+//   // Make sure 5 or under
+//   if (rating > 5) {
+//     alert("Please rate 1 - 5");
+//     return;
+//   }
 
-  // Change rating
-  ratings[product] = rating;
+//   // Change rating
+//   ratings[product] = rating;
 
-  getRatings();
-});
+//   getRatings();
+// });
 
-// Get ratings
-function getRatings() {
-  for (let rating in ratings) {
-    // Get percentage
-    const starPercentage = (ratings[rating] / starsTotal) * 100;
+// // Get ratings
+// function getRatings() {
+//   for (let rating in ratings) {
+//     // Get percentage
+//     const starPercentage = (ratings[rating] / starsTotal) * 100;
 
-    // Round to nearest 10
-    const starPercentageRounded = `${Math.round(starPercentage / 10) * 10}%`;
+//     // Round to nearest 10
+//     const starPercentageRounded = `${Math.round(starPercentage / 10) * 10}%`;
 
-    // Set width of stars-inner to percentage
-    document.querySelector(
-      `.${rating} .stars-inner`
-    ).style.width = starPercentageRounded;
+//     // Set width of stars-inner to percentage
+//     document.querySelector(
+//       `.${rating} .stars-inner`
+//     ).style.width = starPercentageRounded;
 
-    // Add number rating
-    document.querySelector(`.${rating} .number-rating`).innerHTML =
-      ratings[rating];
-  }
-}
+//     // Add number rating
+//     document.querySelector(`.${rating} .number-rating`).innerHTML =
+//       ratings[rating];
+//   }
+// }

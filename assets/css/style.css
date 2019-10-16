@@ -3,7 +3,8 @@
 }
 
 form {
-  width: 500px;
+  width: 100%;
+ 
 }
 
 * {
@@ -16,6 +17,7 @@ body {
   font-family: "Oswald", sans-serif;
   font-size: 24px;
   background-color: #44bba4;
+  height:100%;
 }
 
 header {
@@ -65,8 +67,6 @@ footer {
   width: 400px;
 }
 
-
-
 #p3 {
   background-color: #797979;
   color: #000000;
@@ -92,6 +92,7 @@ footer {
   margin-right: auto;
   justify-content: center;
 }
+
 .text {
   color: #fff;
 }
@@ -295,7 +296,7 @@ legend {
   font-size: 24px;
   justify-content: center;
   margin: auto;
-  width: 50%;
+  width: 30%;
   border: 3px solid rgb(0, 0, 0);
   background-color: #0bd8f3;
   padding: 10px;
@@ -365,68 +366,27 @@ legend {
 }
 
 .wrapper{
-  width: 100%
+  width: 100%;
+  height: 100%;
 }
 
 /*Resposiveness for multiple devices*/
 
 /*Galaxy s5,pixel 2*/
-@media only screen and (min-width:360px){
+@media only screen and (max-width:360px){
   .wrapper{
-    width: 375px;
- 
-    
-  }
-}
-
-/*pixel 2 XL*/
-@media only screen and (min-width:411px){
-  .wrapper{
-    width: 410px;
-    
-  }
-}
-/*Laptop with touch*/
-@media only screen and (min-width:1280px){
-  .wrapper{
-    width: 1280px;
-  }
-}
-
-/*iphone 5/SE*/
-@media only screen and (min-width:320px){
-  .wrapper{
-    width: 455px;
-  }
-}
-
-/*Ipad*/
-@media only screen and (min-width: 768px){
-  .wrapper{
-    width:768px;
-  }
-}
-
-/*Ipad Pro*/
-@media only screen and (min-width: 1024px){
-  .wrapper{
-    width:768px;
+    width: 100%;
   
   }
-  
-}
-/*Laptop,desktop*/
-@media only screen and (min-width: 1280px){
-  .wrapper{
-    width:1280px;
+  nav{
+    width:100%;
+  }
 
+  nav a {
+    padding: 20px;
+  }
+
+  .dropdown-1 {
+    width: 150%;
   }
 }
-/*My laptop 4k*/
-@media only screen and (min-width: 961px){
-  .wrapper{
-    width:1520px;
-
-  }
-}
-
