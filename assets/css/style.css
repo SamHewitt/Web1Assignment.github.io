@@ -373,10 +373,12 @@ legend {
 /*Galaxy s5,pixel 2*/
 @media only screen and (min-width:360px){
   .wrapper{
-    width: 368px;
+    width: 375px;
+ 
     
   }
 }
+
 /*pixel 2 XL*/
 @media only screen and (min-width:411px){
   .wrapper{
@@ -408,7 +410,7 @@ legend {
 /*Ipad Pro*/
 @media only screen and (min-width: 1024px){
   .wrapper{
-    width:1024px;
+    width:768px;
   
   }
   
