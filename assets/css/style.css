@@ -372,7 +372,6 @@ legend {
 
 /*Resposiveness for multiple devices*/
 
-/*Galaxy s5,pixel 2*/
 @media only screen and (max-width:360px){
   .wrapper{
     width: 100%;
