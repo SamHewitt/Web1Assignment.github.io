@@ -18,167 +18,170 @@
     <title>Motorcycles</title>
   </head>
   <body>
-      <div class="wrapper">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li>
-          <a href="#">Items</a>
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="#">Items</a>
 
-          <ul class="dropdown-1">
-            <li>
-              <a class="nav-active" href="motorcycles.html">Motorcycles</a>
-            </li>
-            <li><a href="helmets.html">Helmets</a></li>
-            <li><a href="jackets.html">Jackets</a></li>
-            <li><a href="pants.html">Pants</a></li>
-          </ul>
-        </li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <p id="p3">Motorcycles</p>
+            <ul class="dropdown-1">
+              <li>
+                <a class="nav-active" href="motorcycles.html">Motorcycles</a>
+              </li>
+              <li><a href="helmets.html">Helmets</a></li>
+              <li><a href="jackets.html">Jackets</a></li>
+              <li><a href="pants.html">Pants</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <p id="p3">Motorcycles</p>
 
-    <!--review form-->
-    <div class="row">
-      <section>
-        <form>
-          <fieldset>
-            <legend id="p1">Review A Motorcycle</legend>
-            <label
-              >Name<br />
-              <input
-                class="text"
-                id="name-input"
-                required="true"
-                placeholder="Your name"
-                required
-              /> </label
-            ><br />
-            <label
-              >Item name<br />
-              <input
-                class="text"
-                id="item-input"
-                required="true"
-                placeholder="Motorcycle name"
-              /> </label
-            ><br />
-            <label
-              >Review<br />
-              <textarea
-                class="comment"
-                required="true"
-                id="comment-input"
-                required
-                cols="35"
-                rows="10"
-                placeholder="Your review"
-              ></textarea> </label
-            ><br />
-            <input id="comment-data" type="button" value="Post" />
-            <br />
-            <br />
-          </fieldset>
-        </form>
-        <aside>
-          <!--Star Rating-->
-          <div class="item-listing">
-            <div class="container mt-5">
-              <div class="form-group">
-                <select id="product-select" class="form-control custom-select">
-                  <option value="0" disabled selected>Select Product</option>
-                  <option value="kawasaki">Kawasaki Ninja 300</option>
-                  <option value="kawasakih2r">Kawasaki H2R</option>
-                  <option value="harley">Harley Davidson Bobber 600</option>
-                  <option value="triumph">Triumph Bobber 800</option>
-                  <option value="honda">Honda CR250R</option>
-                </select>
+      <!--review form-->
+      <div class="row">
+        <section>
+          <form>
+            <fieldset>
+              <legend id="p1">Review A Motorcycle</legend>
+              <label
+                >Name<br />
+                <input
+                  class="text"
+                  id="name-input"
+                  required="true"
+                  placeholder="Your name"
+                  required
+                /> </label
+              ><br />
+              <label
+                >Item name<br />
+                <input
+                  class="text"
+                  id="item-input"
+                  required="true"
+                  placeholder="Motorcycle name"
+                /> </label
+              ><br />
+              <label
+                >Review<br />
+                <textarea
+                  class="comment"
+                  required="true"
+                  id="comment-input"
+                  required
+                  cols="35"
+                  rows="10"
+                  placeholder="Your review"
+                ></textarea> </label
+              ><br />
+              <input id="comment-data" type="button" value="Post" />
+              <br />
+              <br />
+            </fieldset>
+          </form>
+          <aside>
+            <!--Star Rating-->
+            <div class="item-listing">
+              <div class="container mt-5">
+                <div class="form-group">
+                  <select
+                    id="product-select"
+                    class="form-control custom-select"
+                  >
+                    <option value="0" disabled selected>Select Product</option>
+                    <option value="kawasaki">Kawasaki Ninja 300</option>
+                    <option value="kawasakih2r">Kawasaki H2R</option>
+                    <option value="harley">Harley Davidson Bobber 600</option>
+                    <option value="triumph">Triumph Bobber 800</option>
+                    <option value="honda">Honda CR250R</option>
+                  </select>
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <input
-                type="number"
-                id="rating-control"
-                class="form-control"
-                step="0.1"
-                max="5"
-                placeholder="Rate 1 - 5"
-                disabled
-              />
-            </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  id="rating-control"
+                  class="form-control"
+                  step="0.1"
+                  max="5"
+                  placeholder="Rate 1 - 5"
+                  disabled
+                />
+              </div>
 
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>Rating</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="kawasaki">
-                  <td>Kawasaki Ninja 300</td>
-                  <td>
-                    <div class="stars-outer">
-                      <div class="stars-inner"></div>
-                    </div>
-                    <span class="number-rating"></span>
-                  </td>
-                </tr>
-                <tr class="kawasakih2r">
-                  <td>Kawasaki H2R</td>
-                  <td>
-                    <div class="stars-outer">
-                      <div class="stars-inner"></div>
-                    </div>
-                    <span class="number-rating"></span>
-                  </td>
-                </tr>
-                <tr class="harley">
-                  <td>Harley Davidson Bobber 600</td>
-                  <td>
-                    <div class="stars-outer">
-                      <div class="stars-inner"></div>
-                    </div>
-                    <span class="number-rating"></span>
-                  </td>
-                </tr>
-                <tr class="triumph">
-                  <td>Triumph Bobber 800</td>
-                  <td>
-                    <div class="stars-outer">
-                      <div class="stars-inner"></div>
-                    </div>
-                    <span class="number-rating"></span>
-                  </td>
-                </tr>
-                <tr class="honda">
-                  <td>Honda CR250R</td>
-                  <td>
-                    <div class="stars-outer">
-                      <div class="stars-inner"></div>
-                    </div>
-                    <span class="number-rating"></span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Rating</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="kawasaki">
+                    <td>Kawasaki Ninja 300</td>
+                    <td>
+                      <div class="stars-outer">
+                        <div class="stars-inner"></div>
+                      </div>
+                      <span class="number-rating"></span>
+                    </td>
+                  </tr>
+                  <tr class="kawasakih2r">
+                    <td>Kawasaki H2R</td>
+                    <td>
+                      <div class="stars-outer">
+                        <div class="stars-inner"></div>
+                      </div>
+                      <span class="number-rating"></span>
+                    </td>
+                  </tr>
+                  <tr class="harley">
+                    <td>Harley Davidson Bobber 600</td>
+                    <td>
+                      <div class="stars-outer">
+                        <div class="stars-inner"></div>
+                      </div>
+                      <span class="number-rating"></span>
+                    </td>
+                  </tr>
+                  <tr class="triumph">
+                    <td>Triumph Bobber 800</td>
+                    <td>
+                      <div class="stars-outer">
+                        <div class="stars-inner"></div>
+                      </div>
+                      <span class="number-rating"></span>
+                    </td>
+                  </tr>
+                  <tr class="honda">
+                    <td>Honda CR250R</td>
+                    <td>
+                      <div class="stars-outer">
+                        <div class="stars-inner"></div>
+                      </div>
+                      <span class="number-rating"></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </aside>
+          <!--comment displayed here-->
+          <div id="f1">
+            <p id="name-output"></p>
+            <p id="item-output"></p>
+            <p id="comment-output"></p>
+            <p id="datetime"></p>
           </div>
+        </section>
+        <!--json file displayed here-->
+        <aside>
+          <legend><ul id="item-list"></ul></legend>
         </aside>
-        <!--comment displayed here-->
-        <div id="f1">
-          <p id="name-output"></p>
-          <p id="item-output"></p>
-          <p id="comment-output"></p>
-          <p id="datetime"></p>
-        </div>
-      </section>
-      <!--json file displayed here-->
-      <aside>
-        <legend><ul id="item-list"></ul></legend>
-      </aside>
-    </div>
-    <footer id="p1">Copyright © Sam Hewitt 2019</footer>
       </div>
+      <footer id="p1">Copyright © Sam Hewitt 2019</footer>
+    </div>
     <script src="./assets/js/motorcycles.js"></script>
   </body>
 </html>

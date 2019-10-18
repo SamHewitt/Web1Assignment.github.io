@@ -55,7 +55,6 @@ const showComment = () => {
 };
 document.getElementById("comment-data").addEventListener("click", showComment);
 
-
 //Star Rating
 //Initial Ratings
 const ratings = {
@@ -98,8 +97,8 @@ ratingControl.addEventListener("blur", e => {
   }
   // Make sure 0 or over
   if (rating < 0) {
-  alert("Please rate 1 - 5");
-   return;
+    alert("Please rate 1 - 5");
+    return;
   }
   // Change rating
   ratings[product] = rating;

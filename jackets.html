@@ -18,174 +18,177 @@
     <title>Jackets</title>
   </head>
   <body>
-      <div class="wrapper">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li>
-          <a href="#">Items</a>
-          <ul class="dropdown-1">
-            <li><a href="motorcycles.html">Motorcycles</a></li>
-            <li><a href="helmets.html">Helmets</a></li>
-            <li><a class="nav-active" href="jackets.html">Jackets</a></li>
-            <li><a href="pants.html">Pants</a></li>
-          </ul>
-        </li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="#">Items</a>
+            <ul class="dropdown-1">
+              <li><a href="motorcycles.html">Motorcycles</a></li>
+              <li><a href="helmets.html">Helmets</a></li>
+              <li><a class="nav-active" href="jackets.html">Jackets</a></li>
+              <li><a href="pants.html">Pants</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
-    <p id="p3">Jackets</p>
+      <p id="p3">Jackets</p>
 
-    <!--Review form-->
-    <div class="row">
-      <section>
-        <form>
-          <fieldset>
-            <legend id="p1">Review A Jacket</legend>
-            <label
-              >Name<br />
-              <input
-                class="text"
-                id="name-input"
-                required="true"
-                placeholder="Your name"
-                required
-              /> </label
-            ><br />
-            <label
-              >Item name<br />
-              <input
-                class="text"
-                id="item-input"
-                required="true"
-                placeholder="Jacket name"
-              /> </label
-            ><br />
-            <label
-              >Review<br />
-              <textarea
-                class="comment"
-                required="true"
-                id="comment-input"
-                required
-                cols="35"
-                rows="10"
-                placeholder="Your review"
-              ></textarea> </label
-            ><br />
-            <input id="comment-data" type="button" value="Post" /><br />
+      <!--Review form-->
+      <div class="row">
+        <section>
+          <form>
+            <fieldset>
+              <legend id="p1">Review A Jacket</legend>
+              <label
+                >Name<br />
+                <input
+                  class="text"
+                  id="name-input"
+                  required="true"
+                  placeholder="Your name"
+                  required
+                /> </label
+              ><br />
+              <label
+                >Item name<br />
+                <input
+                  class="text"
+                  id="item-input"
+                  required="true"
+                  placeholder="Jacket name"
+                /> </label
+              ><br />
+              <label
+                >Review<br />
+                <textarea
+                  class="comment"
+                  required="true"
+                  id="comment-input"
+                  required
+                  cols="35"
+                  rows="10"
+                  placeholder="Your review"
+                ></textarea> </label
+              ><br />
+              <input id="comment-data" type="button" value="Post" /><br />
 
-            <br /><br />
-          </fieldset>
-        </form>
+              <br /><br />
+            </fieldset>
+          </form>
 
-        <aside>
-          <!--Star Rating-->
-          <div class="item-listing">
-            <div class="container mt-5">
-              <div class="form-group">
-                <select id="product-select" class="form-control custom-select">
-                  <option value="0" disabled selected>Select Product</option>
-                  <option value="revit">Rev'it Sports Jacket</option>
-                  <option value="falstaff">Falstaff Sports Jacket</option>
-                  <option value="leatherking"
-                    >Leather King Crusier Jacket</option
+          <aside>
+            <!--Star Rating-->
+            <div class="item-listing">
+              <div class="container mt-5">
+                <div class="form-group">
+                  <select
+                    id="product-select"
+                    class="form-control custom-select"
                   >
-                  <option value="thordirt">Thor Dirt Bike Jersey</option>
-                  <option value="thorsports">Thor Sports Jacket</option>
-                </select>
+                    <option value="0" disabled selected>Select Product</option>
+                    <option value="revit">Rev'it Sports Jacket</option>
+                    <option value="falstaff">Falstaff Sports Jacket</option>
+                    <option value="leatherking"
+                      >Leather King Crusier Jacket</option
+                    >
+                    <option value="thordirt">Thor Dirt Bike Jersey</option>
+                    <option value="thorsports">Thor Sports Jacket</option>
+                  </select>
+                </div>
               </div>
-            </div>
 
-            <div class="form-group">
-              <input
-                type="number"
-                id="rating-control"
-                class="form-control"
-                step="0.1"
-                max="5"
-                placeholder="Rate 1 - 5"
-                disabled
-              />
-            </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  id="rating-control"
+                  class="form-control"
+                  step="0.1"
+                  max="5"
+                  placeholder="Rate 1 - 5"
+                  disabled
+                />
+              </div>
 
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>Rating</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="revit">
-                  <td>Rev'it Sports jacket</td>
-                  <td>
-                    <div class="stars-outer">
-                      <div class="stars-inner"></div>
-                    </div>
-                    <span class="number-rating"></span>
-                  </td>
-                </tr>
-                <tr class="falstaff">
-                  <td>Falstaff Sports Jacket</td>
-                  <td>
-                    <div class="stars-outer">
-                      <div class="stars-inner"></div>
-                    </div>
-                    <span class="number-rating"></span>
-                  </td>
-                </tr>
-                <tr class="leatherking">
-                  <td>Leather King Cruiser Jacket</td>
-                  <td>
-                    <div class="stars-outer">
-                      <div class="stars-inner"></div>
-                    </div>
-                    <span class="number-rating"></span>
-                  </td>
-                </tr>
-                <tr class="thordirt">
-                  <td>Thor Dirt Bike Jersey</td>
-                  <td>
-                    <div class="stars-outer">
-                      <div class="stars-inner"></div>
-                    </div>
-                    <span class="number-rating"></span>
-                  </td>
-                </tr>
-                <tr class="thorsports">
-                  <td>Thor Sports Jacket</td>
-                  <td>
-                    <div class="stars-outer">
-                      <div class="stars-inner"></div>
-                    </div>
-                    <span class="number-rating"></span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Rating</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="revit">
+                    <td>Rev'it Sports jacket</td>
+                    <td>
+                      <div class="stars-outer">
+                        <div class="stars-inner"></div>
+                      </div>
+                      <span class="number-rating"></span>
+                    </td>
+                  </tr>
+                  <tr class="falstaff">
+                    <td>Falstaff Sports Jacket</td>
+                    <td>
+                      <div class="stars-outer">
+                        <div class="stars-inner"></div>
+                      </div>
+                      <span class="number-rating"></span>
+                    </td>
+                  </tr>
+                  <tr class="leatherking">
+                    <td>Leather King Cruiser Jacket</td>
+                    <td>
+                      <div class="stars-outer">
+                        <div class="stars-inner"></div>
+                      </div>
+                      <span class="number-rating"></span>
+                    </td>
+                  </tr>
+                  <tr class="thordirt">
+                    <td>Thor Dirt Bike Jersey</td>
+                    <td>
+                      <div class="stars-outer">
+                        <div class="stars-inner"></div>
+                      </div>
+                      <span class="number-rating"></span>
+                    </td>
+                  </tr>
+                  <tr class="thorsports">
+                    <td>Thor Sports Jacket</td>
+                    <td>
+                      <div class="stars-outer">
+                        <div class="stars-inner"></div>
+                      </div>
+                      <span class="number-rating"></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </aside>
+          <!--Comment displayed here-->
+          <div id="f1">
+            <p id="name-output"></p>
+            <p id="item-output"></p>
+            <p id="comment-output"></p>
+            <p id="datetime"></p>
           </div>
+        </section>
+
+        <!--json file displayed here-->
+        <aside>
+          <legend>
+            <ul id="item-list">
+              <br />
+            </ul>
+          </legend>
         </aside>
-        <!--Comment displayed here-->
-        <div id="f1">
-          <p id="name-output"></p>
-          <p id="item-output"></p>
-          <p id="comment-output"></p>
-          <p id="datetime"></p>
-        </div>
-      </section>
+      </div>
 
-      <!--json file displayed here-->
-      <aside>
-        <legend>
-          <ul id="item-list">
-            <br />
-          </ul>
-        </legend>
-      </aside>
-    </div>
-
-    <footer id="p1">Copyright © Sam Hewitt 2019</footer>
+      <footer id="p1">Copyright © Sam Hewitt 2019</footer>
     </div>
     <script src="./assets/js/jackets.js"></script>
   </body>

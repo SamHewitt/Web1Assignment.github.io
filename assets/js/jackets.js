@@ -95,10 +95,10 @@ ratingControl.addEventListener("blur", e => {
     alert("Please rate 1 - 5");
     return;
   }
-// Make sure 0 or over
-if (rating < 0) {
-  alert("Please rate 1 - 5");
-   return;
+  // Make sure 0 or over
+  if (rating < 0) {
+    alert("Please rate 1 - 5");
+    return;
   }
   // Change rating
   ratings[product] = rating;
